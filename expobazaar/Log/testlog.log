@@ -1,0 +1,674 @@
+2023-04-25 12:34:15,926 - pages.Login -INFO -Click on Sign up
+2023-04-25 12:34:15,926 [main] INFO pages.Login - Click on Sign up
+2023-04-25 12:34:18,879 - pages.Login -INFO -send data by excel
+2023-04-25 12:34:18,879 [main] INFO pages.Login - send data by excel
+2023-04-25 12:34:18,966 - pages.Login -INFO -send data by excel
+2023-04-25 12:34:18,966 [main] INFO pages.Login - send data by excel
+2023-04-25 12:48:54,601 - pages.Login -INFO -Click on Sign up
+2023-04-25 12:48:54,601 [main] INFO pages.Login - Click on Sign up
+2023-04-25 12:48:55,099 - pages.Login -INFO -send data by excel
+2023-04-25 12:48:55,099 [main] INFO pages.Login - send data by excel
+2023-04-25 12:48:55,187 - pages.Login -INFO -send data by excel
+2023-04-25 12:48:55,187 [main] INFO pages.Login - send data by excel
+2023-04-25 12:54:03,033 - pages.Login -INFO -Click on Sign up
+2023-04-25 12:54:03,033 [main] INFO pages.Login - Click on Sign up
+2023-04-25 12:54:03,587 - pages.Login -INFO -send data by excel
+2023-04-25 12:54:03,587 [main] INFO pages.Login - send data by excel
+2023-04-25 12:54:03,652 - pages.Login -INFO -send data by excel
+2023-04-25 12:54:03,652 [main] INFO pages.Login - send data by excel
+2023-04-25 12:56:19,114 - pages.Login -INFO -Click on Sign up
+2023-04-25 12:56:19,114 [main] INFO pages.Login - Click on Sign up
+2023-04-25 12:56:19,693 - pages.Login -INFO -send data by excel
+2023-04-25 12:56:19,693 [main] INFO pages.Login - send data by excel
+2023-04-25 12:56:19,785 - pages.Login -INFO -send data by excel
+2023-04-25 12:56:19,785 [main] INFO pages.Login - send data by excel
+2023-04-25 12:57:18,977 - pages.Login -INFO -Click on Sign up
+2023-04-25 12:57:18,977 [main] INFO pages.Login - Click on Sign up
+2023-04-25 12:57:19,471 - pages.Login -INFO -send data by excel
+2023-04-25 12:57:19,471 [main] INFO pages.Login - send data by excel
+2023-04-25 12:57:19,536 - pages.Login -DEBUG -send data by excel
+2023-04-25 12:57:19,536 [main] DEBUG pages.Login - send data by excel
+2023-04-25 13:04:34,825 - pages.Login -INFO -Click on Sign up
+2023-04-25 13:04:34,825 [main] INFO pages.Login - Click on Sign up
+2023-04-25 13:04:35,374 - pages.Login -INFO -send data by excel
+2023-04-25 13:04:35,374 [main] INFO pages.Login - send data by excel
+2023-04-25 13:04:35,476 - pages.Login -INFO -send data by excel
+2023-04-25 13:04:35,476 [main] INFO pages.Login - send data by excel
+2023-04-25 13:14:39,722 - test.Login_test -INFO -launch the browser
+2023-04-25 13:14:39,722 [main] INFO test.Login_test - launch the browser
+2023-04-25 13:14:51,497 - test.Login_test -INFO -Go to the website
+2023-04-25 13:14:51,497 [main] INFO test.Login_test - Go to the website
+2023-04-25 13:14:51,629 - test.Login_test -INFO -maximize the window
+2023-04-25 13:14:51,629 [main] INFO test.Login_test - maximize the window
+2023-04-25 13:15:05,735 - pages.Login -INFO -Click on Sign up
+2023-04-25 13:15:05,735 [main] INFO pages.Login - Click on Sign up
+2023-04-25 13:15:10,829 - pages.Login -INFO -send data by excel
+2023-04-25 13:15:10,829 [main] INFO pages.Login - send data by excel
+2023-04-25 13:15:24,410 - pages.Login -INFO -send data by excel
+2023-04-25 13:15:24,410 [main] INFO pages.Login - send data by excel
+2023-04-25 13:25:49,798 - test.Kitchen_decor_test -INFO -launch the browser
+2023-04-25 13:25:49,798 [main] INFO test.Kitchen_decor_test - launch the browser
+2023-04-25 13:25:56,646 - test.Kitchen_decor_test -INFO -Go to the website
+2023-04-25 13:25:56,646 [main] INFO test.Kitchen_decor_test - Go to the website
+2023-04-25 13:25:56,778 - test.Kitchen_decor_test -INFO -maximize the window
+2023-04-25 13:25:56,778 [main] INFO test.Kitchen_decor_test - maximize the window
+2023-04-25 13:26:01,945 - test.Kitchen_decor_test -INFO -Click into the kitchen and decor menu
+2023-04-25 13:26:01,945 [main] INFO test.Kitchen_decor_test - Click into the kitchen and decor menu
+2023-04-25 13:26:09,135 - test.Kitchen_decor_test -INFO -check on usa side box
+2023-04-25 13:26:09,135 [main] INFO test.Kitchen_decor_test - check on usa side box
+2023-04-25 13:26:15,198 - test.Kitchen_decor_test -INFO -check on ready to ship box
+2023-04-25 13:26:15,198 [main] INFO test.Kitchen_decor_test - check on ready to ship box
+2023-04-25 13:26:21,281 - test.Kitchen_decor_test -INFO -click on category tab
+2023-04-25 13:26:21,281 [main] INFO test.Kitchen_decor_test - click on category tab
+2023-04-25 13:26:27,719 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:26:27,719 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:26:27,793 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:26:27,793 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:26:33,834 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:26:33,834 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:26:33,836 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:26:33,836 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:26:33,907 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:26:33,907 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:26:46,111 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:26:46,111 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:26:46,171 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:26:46,171 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:26:52,203 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:26:52,203 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:26:52,203 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:26:52,203 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:26:52,246 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:26:52,246 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:27:04,308 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:27:04,308 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:27:04,365 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:27:04,365 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:27:10,391 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:27:10,391 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:27:10,392 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:27:10,392 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:27:10,425 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:27:10,425 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:27:22,492 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:27:22,492 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:27:22,550 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:27:22,550 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:27:28,579 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:27:28,579 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:27:28,579 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:27:28,579 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:27:28,611 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:27:28,611 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:27:40,664 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:27:40,664 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:27:40,719 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:27:40,719 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:27:46,742 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:27:46,742 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:27:46,743 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:27:46,743 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:27:46,778 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:27:46,778 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:27:58,829 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:27:58,829 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:27:58,886 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:27:58,886 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:28:04,918 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:28:04,918 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:28:04,918 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:28:04,918 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:28:04,947 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:28:04,947 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:28:17,003 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:28:17,003 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:28:17,057 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:28:17,057 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:28:23,092 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:28:23,092 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:28:23,092 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:28:23,092 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:28:23,122 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:28:23,122 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:28:35,166 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:28:35,166 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:28:35,230 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:28:35,230 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:28:41,266 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:28:41,266 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:28:41,266 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:28:41,266 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:28:41,299 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:28:41,299 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:28:53,372 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:28:53,372 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:28:53,433 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:28:53,433 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:28:59,462 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:28:59,462 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:28:59,463 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:28:59,463 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:28:59,490 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:28:59,490 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:29:11,535 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:29:11,535 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:29:11,592 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:29:11,592 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:29:17,627 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:29:17,627 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:29:17,628 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:29:17,628 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:29:17,657 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:29:17,657 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:29:29,701 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:29:29,701 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:29:29,751 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:29:29,751 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:29:35,798 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:29:35,798 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:29:35,798 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:29:35,798 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:29:35,833 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:29:35,833 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:29:47,870 - test.Kitchen_decor_test -INFO -get the name of product from list
+2023-04-25 13:29:47,870 [main] INFO test.Kitchen_decor_test - get the name of product from list
+2023-04-25 13:29:47,923 - test.Kitchen_decor_test -INFO -click on the product for go to product page
+2023-04-25 13:29:47,923 [main] INFO test.Kitchen_decor_test - click on the product for go to product page
+2023-04-25 13:29:53,961 - test.Kitchen_decor_test -INFO -get the name of product from product page
+2023-04-25 13:29:53,961 [main] INFO test.Kitchen_decor_test - get the name of product from product page
+2023-04-25 13:29:53,961 - test.Kitchen_decor_test -INFO -check the product name are same on list and product page
+2023-04-25 13:29:53,961 [main] INFO test.Kitchen_decor_test - check the product name are same on list and product page
+2023-04-25 13:29:53,990 - test.Kitchen_decor_test -INFO -go back for other product in list
+2023-04-25 13:29:53,990 [main] INFO test.Kitchen_decor_test - go back for other product in list
+2023-04-25 13:30:00,004 - test.Kitchen_decor_test -INFO -test case end
+2023-04-25 13:30:00,004 [main] INFO test.Kitchen_decor_test - test case end
+2023-04-25 14:37:01,989 - test.Login_test -INFO -launch the browser
+2023-04-25 14:37:01,989 [main] INFO test.Login_test - launch the browser
+2023-04-25 14:37:28,918 - test.Login_test -INFO -Go to the website
+2023-04-25 14:37:28,918 [main] INFO test.Login_test - Go to the website
+2023-04-25 14:37:29,059 - test.Login_test -INFO -maximize the window
+2023-04-25 14:37:29,059 [main] INFO test.Login_test - maximize the window
+2023-04-25 14:37:34,636 - pages.Login -INFO -Click on Sign up
+2023-04-25 14:37:34,636 [main] INFO pages.Login - Click on Sign up
+2023-04-25 14:37:37,011 - pages.Login -INFO -send data by excel
+2023-04-25 14:37:37,011 [main] INFO pages.Login - send data by excel
+2023-04-25 14:37:37,172 - pages.Login -INFO -send data by excel
+2023-04-25 14:37:37,172 [main] INFO pages.Login - send data by excel
+2023-04-25 14:37:37,241 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 14:37:37,241 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 14:37:37,245 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 14:37:37,245 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 14:37:37,249 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 14:37:37,249 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 14:37:37,253 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 14:37:37,253 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 14:37:37,254 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 14:37:37,254 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 14:48:52,344 - test.Kitchen_decor_test -INFO -launch the browser
+2023-04-25 14:48:52,344 [main] INFO test.Kitchen_decor_test - launch the browser
+2023-04-25 14:49:03,365 - test.Kitchen_decor_test -INFO -Go to the website
+2023-04-25 14:49:03,365 [main] INFO test.Kitchen_decor_test - Go to the website
+2023-04-25 14:49:03,553 - test.Kitchen_decor_test -INFO -maximize the window
+2023-04-25 14:49:03,553 [main] INFO test.Kitchen_decor_test - maximize the window
+2023-04-25 14:49:03,705 - test.Login_test -INFO -launch the browser
+2023-04-25 14:49:03,705 [main] INFO test.Login_test - launch the browser
+2023-04-25 14:49:13,857 - test.Login_test -INFO -Go to the website
+2023-04-25 14:49:13,857 [main] INFO test.Login_test - Go to the website
+2023-04-25 14:49:14,006 - test.Login_test -INFO -maximize the window
+2023-04-25 14:49:14,006 [main] INFO test.Login_test - maximize the window
+2023-04-25 14:49:19,300 - pages.Login -INFO -Click on Sign up
+2023-04-25 14:49:19,300 [main] INFO pages.Login - Click on Sign up
+2023-04-25 14:49:22,416 - pages.Login -INFO -send data by excel
+2023-04-25 14:49:22,416 [main] INFO pages.Login - send data by excel
+2023-04-25 14:49:22,689 - pages.Login -INFO -send data by excel
+2023-04-25 14:49:22,689 [main] INFO pages.Login - send data by excel
+2023-04-25 14:49:27,828 - pages.Login -INFO -Click into the kitchen and decor menu
+2023-04-25 14:49:27,828 [main] INFO pages.Login - Click into the kitchen and decor menu
+2023-04-25 14:49:34,113 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 14:49:34,113 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 14:49:34,116 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 14:49:34,116 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 14:49:34,119 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 14:49:34,119 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 14:49:34,122 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 14:49:34,122 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 14:49:34,123 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 14:49:34,123 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 14:49:44,030 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 14:49:44,030 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 14:49:44,033 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 14:49:44,033 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 14:49:44,035 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 14:49:44,035 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 14:49:44,038 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 14:49:44,038 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 14:49:44,040 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 14:49:44,040 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 14:56:14,591 - test.Login_test -INFO -launch the browser
+2023-04-25 14:56:14,591 [main] INFO test.Login_test - launch the browser
+2023-04-25 14:56:36,533 - test.Login_test -INFO -Go to the website
+2023-04-25 14:56:36,533 [main] INFO test.Login_test - Go to the website
+2023-04-25 14:56:36,784 - test.Login_test -INFO -maximize the window
+2023-04-25 14:56:36,784 [main] INFO test.Login_test - maximize the window
+2023-04-25 14:56:42,707 - pages.Login -INFO -Click on Sign up
+2023-04-25 14:56:42,707 [main] INFO pages.Login - Click on Sign up
+2023-04-25 14:56:47,911 - pages.Login -INFO -send data by excel
+2023-04-25 14:56:47,911 [main] INFO pages.Login - send data by excel
+2023-04-25 14:56:48,126 - pages.Login -INFO -send data by excel
+2023-04-25 14:56:48,126 [main] INFO pages.Login - send data by excel
+2023-04-25 14:56:48,430 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 14:56:48,430 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 14:56:48,436 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 14:56:48,436 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 14:56:48,442 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 14:56:48,442 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 14:56:48,446 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 14:56:48,446 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 14:56:48,447 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 14:56:48,447 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:30:57,720 - test.Login_test -INFO -launch the browser
+2023-04-25 16:30:57,720 [main] INFO test.Login_test - launch the browser
+2023-04-25 16:31:41,585 - test.Login_test -INFO -Go to the website
+2023-04-25 16:31:41,585 [main] INFO test.Login_test - Go to the website
+2023-04-25 16:31:41,736 - test.Login_test -INFO -maximize the window
+2023-04-25 16:31:41,736 [main] INFO test.Login_test - maximize the window
+2023-04-25 16:31:42,482 - pages.Login -INFO -Go to sign up page
+2023-04-25 16:31:42,482 [main] INFO pages.Login - Go to sign up page
+2023-04-25 16:31:46,721 - pages.Login -INFO -Enter the first name
+2023-04-25 16:31:46,721 [main] INFO pages.Login - Enter the first name
+2023-04-25 16:31:46,855 - pages.Login -INFO -Enter middle name
+2023-04-25 16:31:46,855 [main] INFO pages.Login - Enter middle name
+2023-04-25 16:31:47,003 - pages.Login -INFO -Enter the last name
+2023-04-25 16:31:47,003 [main] INFO pages.Login - Enter the last name
+2023-04-25 16:31:47,130 - pages.Login -INFO -Enter the phone number
+2023-04-25 16:31:47,130 [main] INFO pages.Login - Enter the phone number
+2023-04-25 16:31:47,252 - pages.Login -INFO -Enter the email address
+2023-04-25 16:31:47,252 [main] INFO pages.Login - Enter the email address
+2023-04-25 16:31:47,497 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:31:47,497 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:31:47,502 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:31:47,502 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:31:47,512 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:31:47,512 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:31:47,517 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:31:47,517 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:31:47,520 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:31:47,520 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:34:28,450 - test.Login_test -INFO -launch the browser
+2023-04-25 16:34:28,450 [main] INFO test.Login_test - launch the browser
+2023-04-25 16:34:41,221 - test.Login_test -INFO -Go to the website
+2023-04-25 16:34:41,221 [main] INFO test.Login_test - Go to the website
+2023-04-25 16:34:41,436 - test.Login_test -INFO -maximize the window
+2023-04-25 16:34:41,436 [main] INFO test.Login_test - maximize the window
+2023-04-25 16:34:42,032 - pages.Login -INFO -Go to sign up page
+2023-04-25 16:34:42,032 [main] INFO pages.Login - Go to sign up page
+2023-04-25 16:35:24,269 - pages.Login -INFO -Enter the first name
+2023-04-25 16:35:24,269 [main] INFO pages.Login - Enter the first name
+2023-04-25 16:46:22,402 - test.Login_test -INFO -launch the browser
+2023-04-25 16:46:22,402 [main] INFO test.Login_test - launch the browser
+2023-04-25 16:46:36,741 - test.Login_test -INFO -Go to the website
+2023-04-25 16:46:36,741 [main] INFO test.Login_test - Go to the website
+2023-04-25 16:46:36,893 - test.Login_test -INFO -maximize the window
+2023-04-25 16:46:36,893 [main] INFO test.Login_test - maximize the window
+2023-04-25 16:46:37,520 - pages.Login -INFO -Go to sign up page
+2023-04-25 16:46:37,520 [main] INFO pages.Login - Go to sign up page
+2023-04-25 16:46:40,188 - pages.Login -INFO -Enter the first name
+2023-04-25 16:46:40,188 [main] INFO pages.Login - Enter the first name
+2023-04-25 16:46:40,401 - pages.Login -INFO -Enter middle name
+2023-04-25 16:46:40,401 [main] INFO pages.Login - Enter middle name
+2023-04-25 16:46:40,621 - pages.Login -INFO -Enter the last name
+2023-04-25 16:46:40,621 [main] INFO pages.Login - Enter the last name
+2023-04-25 16:46:40,862 - pages.Login -INFO -Enter the phone number
+2023-04-25 16:46:40,862 [main] INFO pages.Login - Enter the phone number
+2023-04-25 16:46:41,052 - pages.Login -INFO -Enter the email address
+2023-04-25 16:46:41,052 [main] INFO pages.Login - Enter the email address
+2023-04-25 16:46:41,383 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:46:41,383 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:46:41,389 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:46:41,389 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:46:41,394 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:46:41,394 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:46:41,398 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:46:41,398 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:46:41,399 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:46:41,399 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:46:52,483 - test.Login_test -INFO -launch the browser
+2023-04-25 16:46:52,483 [main] INFO test.Login_test - launch the browser
+2023-04-25 16:47:02,458 - test.Login_test -INFO -Go to the website
+2023-04-25 16:47:02,458 [main] INFO test.Login_test - Go to the website
+2023-04-25 16:47:02,603 - test.Login_test -INFO -maximize the window
+2023-04-25 16:47:02,603 [main] INFO test.Login_test - maximize the window
+2023-04-25 16:47:02,994 - pages.Login -INFO -Go to sign up page
+2023-04-25 16:47:02,994 [main] INFO pages.Login - Go to sign up page
+2023-04-25 16:47:08,883 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:47:08,883 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:47:08,886 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:47:08,886 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:47:08,888 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:47:08,888 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:47:08,889 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:47:08,889 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:47:08,890 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:47:08,890 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:50:02,540 - test.Login_test -INFO -launch the browser
+2023-04-25 16:50:02,540 [main] INFO test.Login_test - launch the browser
+2023-04-25 16:50:17,573 - test.Login_test -INFO -Go to the website
+2023-04-25 16:50:17,573 [main] INFO test.Login_test - Go to the website
+2023-04-25 16:50:17,765 - test.Login_test -INFO -maximize the window
+2023-04-25 16:50:17,765 [main] INFO test.Login_test - maximize the window
+2023-04-25 16:50:18,203 - pages.Login -INFO -Go to sign up page
+2023-04-25 16:50:18,203 [main] INFO pages.Login - Go to sign up page
+2023-04-25 16:50:31,896 - pages.Login -INFO -Enter the first name
+2023-04-25 16:50:31,896 [main] INFO pages.Login - Enter the first name
+2023-04-25 16:50:32,071 - pages.Login -INFO -Enter middle name
+2023-04-25 16:50:32,071 [main] INFO pages.Login - Enter middle name
+2023-04-25 16:50:54,206 - pages.Login -INFO -Enter the last name
+2023-04-25 16:50:54,206 [main] INFO pages.Login - Enter the last name
+2023-04-25 16:51:05,958 - pages.Login -INFO -Enter the phone number
+2023-04-25 16:51:05,958 [main] INFO pages.Login - Enter the phone number
+2023-04-25 16:51:53,075 - test.Login_test -INFO -launch the browser
+2023-04-25 16:51:53,075 [main] INFO test.Login_test - launch the browser
+2023-04-25 16:52:05,355 - test.Login_test -INFO -Go to the website
+2023-04-25 16:52:05,355 [main] INFO test.Login_test - Go to the website
+2023-04-25 16:52:05,645 - test.Login_test -INFO -maximize the window
+2023-04-25 16:52:05,645 [main] INFO test.Login_test - maximize the window
+2023-04-25 16:52:06,098 - pages.Login -INFO -Go to sign up page
+2023-04-25 16:52:06,098 [main] INFO pages.Login - Go to sign up page
+2023-04-25 16:52:07,999 - pages.Login -INFO -Enter the first name
+2023-04-25 16:52:07,999 [main] INFO pages.Login - Enter the first name
+2023-04-25 16:52:08,366 - pages.Login -INFO -Enter middle name
+2023-04-25 16:52:08,366 [main] INFO pages.Login - Enter middle name
+2023-04-25 16:52:08,565 - pages.Login -INFO -Enter the last name
+2023-04-25 16:52:08,565 [main] INFO pages.Login - Enter the last name
+2023-04-25 16:52:08,757 - pages.Login -INFO -Enter the phone number
+2023-04-25 16:52:08,757 [main] INFO pages.Login - Enter the phone number
+2023-04-25 16:52:09,000 - pages.Login -INFO -Enter the email address
+2023-04-25 16:52:09,000 [main] INFO pages.Login - Enter the email address
+2023-04-25 16:52:10,109 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:52:10,109 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:52:10,115 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:52:10,115 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:52:10,122 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:52:10,122 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:52:10,128 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:52:10,128 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:52:10,130 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:52:10,130 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:54:15,790 - test.Login_test -INFO -launch the browser
+2023-04-25 16:54:15,790 [main] INFO test.Login_test - launch the browser
+2023-04-25 16:54:27,758 - test.Login_test -INFO -Go to the website
+2023-04-25 16:54:27,758 [main] INFO test.Login_test - Go to the website
+2023-04-25 16:54:27,882 - test.Login_test -INFO -maximize the window
+2023-04-25 16:54:27,882 [main] INFO test.Login_test - maximize the window
+2023-04-25 16:54:28,104 - pages.Login -INFO -Go to sign up page
+2023-04-25 16:54:28,104 [main] INFO pages.Login - Go to sign up page
+2023-04-25 16:54:28,662 - pages.Login -INFO -Enter the first name
+2023-04-25 16:54:28,662 [main] INFO pages.Login - Enter the first name
+2023-04-25 16:54:28,777 - pages.Login -INFO -Enter middle name
+2023-04-25 16:54:28,777 [main] INFO pages.Login - Enter middle name
+2023-04-25 16:54:28,890 - pages.Login -INFO -Enter the last name
+2023-04-25 16:54:28,890 [main] INFO pages.Login - Enter the last name
+2023-04-25 16:54:28,979 - pages.Login -INFO -Enter the phone number
+2023-04-25 16:54:28,979 [main] INFO pages.Login - Enter the phone number
+2023-04-25 16:54:29,110 - pages.Login -INFO -Enter the email address
+2023-04-25 16:54:29,110 [main] INFO pages.Login - Enter the email address
+2023-04-25 16:54:29,198 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:54:29,198 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:54:29,200 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:54:29,200 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:54:29,202 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:54:29,202 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:54:29,203 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:54:29,203 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:54:29,204 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:54:29,204 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:55:13,516 - test.Login_test -INFO -launch the browser
+2023-04-25 16:55:13,516 [main] INFO test.Login_test - launch the browser
+2023-04-25 16:55:21,425 - test.Login_test -INFO -Go to the website
+2023-04-25 16:55:21,425 [main] INFO test.Login_test - Go to the website
+2023-04-25 16:55:21,550 - test.Login_test -INFO -maximize the window
+2023-04-25 16:55:21,550 [main] INFO test.Login_test - maximize the window
+2023-04-25 16:55:21,793 - pages.Login -INFO -Go to sign up page
+2023-04-25 16:55:21,793 [main] INFO pages.Login - Go to sign up page
+2023-04-25 16:55:22,363 - pages.Login -INFO -Enter the first name
+2023-04-25 16:55:22,363 [main] INFO pages.Login - Enter the first name
+2023-04-25 16:55:22,466 - pages.Login -INFO -Enter middle name
+2023-04-25 16:55:22,466 [main] INFO pages.Login - Enter middle name
+2023-04-25 16:55:22,575 - pages.Login -INFO -Enter the last name
+2023-04-25 16:55:22,575 [main] INFO pages.Login - Enter the last name
+2023-04-25 16:55:22,660 - pages.Login -INFO -Enter the phone number
+2023-04-25 16:55:22,660 [main] INFO pages.Login - Enter the phone number
+2023-04-25 16:55:22,796 - pages.Login -INFO -Enter the email address
+2023-04-25 16:55:22,796 [main] INFO pages.Login - Enter the email address
+2023-04-25 16:55:22,882 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:55:22,882 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 16:55:22,883 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:55:22,883 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 16:55:22,885 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:55:22,885 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 16:55:22,886 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:55:22,886 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 16:55:22,887 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 16:55:22,887 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 17:04:34,816 - test.Login_test -INFO -launch the browser
+2023-04-25 17:04:34,816 [main] INFO test.Login_test - launch the browser
+2023-04-25 17:05:18,283 - test.Login_test -INFO -Go to the website
+2023-04-25 17:05:18,283 [main] INFO test.Login_test - Go to the website
+2023-04-25 17:05:18,974 - test.Login_test -INFO -maximize the window
+2023-04-25 17:05:18,974 [main] INFO test.Login_test - maximize the window
+2023-04-25 17:05:20,731 - pages.Login -INFO -Go to sign up page
+2023-04-25 17:05:20,731 [main] INFO pages.Login - Go to sign up page
+2023-04-25 17:05:30,843 - pages.Login -INFO -Enter the first name
+2023-04-25 17:05:30,843 [main] INFO pages.Login - Enter the first name
+2023-04-25 17:05:30,928 - pages.Login -INFO -Enter middle name
+2023-04-25 17:05:30,928 [main] INFO pages.Login - Enter middle name
+2023-04-25 17:05:31,013 - pages.Login -INFO -Enter the last name
+2023-04-25 17:05:31,013 [main] INFO pages.Login - Enter the last name
+2023-04-25 17:05:31,092 - pages.Login -INFO -Enter the phone number
+2023-04-25 17:05:31,092 [main] INFO pages.Login - Enter the phone number
+2023-04-25 17:05:31,210 - pages.Login -INFO -Enter the email address
+2023-04-25 17:05:31,210 [main] INFO pages.Login - Enter the email address
+2023-04-25 17:05:31,708 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 17:05:31,708 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 17:05:31,710 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 17:05:31,710 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 17:05:31,711 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 17:05:31,711 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 17:05:31,713 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 17:05:31,713 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 17:05:31,714 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 17:05:31,714 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 17:06:55,481 - test.Login_test -INFO -launch the browser
+2023-04-25 17:06:55,481 [main] INFO test.Login_test - launch the browser
+2023-04-25 17:07:11,471 - test.Login_test -INFO -Go to the website
+2023-04-25 17:07:11,471 [main] INFO test.Login_test - Go to the website
+2023-04-25 17:07:11,765 - test.Login_test -INFO -maximize the window
+2023-04-25 17:07:11,765 [main] INFO test.Login_test - maximize the window
+2023-04-25 17:07:13,848 - pages.Login -INFO -Go to sign up page
+2023-04-25 17:07:13,848 [main] INFO pages.Login - Go to sign up page
+2023-04-25 17:07:18,365 - pages.Login -INFO -Enter the first name
+2023-04-25 17:07:18,365 [main] INFO pages.Login - Enter the first name
+2023-04-25 17:07:18,449 - pages.Login -INFO -Enter middle name
+2023-04-25 17:07:18,449 [main] INFO pages.Login - Enter middle name
+2023-04-25 17:07:18,536 - pages.Login -INFO -Enter the last name
+2023-04-25 17:07:18,536 [main] INFO pages.Login - Enter the last name
+2023-04-25 17:07:18,606 - pages.Login -INFO -Enter the phone number
+2023-04-25 17:07:18,606 [main] INFO pages.Login - Enter the phone number
+2023-04-25 17:07:18,709 - pages.Login -INFO -Enter the email address
+2023-04-25 17:07:18,709 [main] INFO pages.Login - Enter the email address
+2023-04-25 17:07:19,097 - freemarker.cache -DEBUG -Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 17:07:19,097 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-04-25 17:07:19,098 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 17:07:19,098 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-04-25 17:07:19,100 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 17:07:19,100 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-04-25 17:07:19,102 - freemarker.cache -DEBUG -TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 17:07:19,102 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-04-25 17:07:19,102 - freemarker.cache -DEBUG -Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 17:07:19,102 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/rohit.kashyap/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-04-25 17:10:41,553 - test.Login_test -INFO -launch the browser
+2023-04-25 17:10:41,553 [main] INFO test.Login_test - launch the browser
+2023-04-25 17:10:53,084 - test.Login_test -INFO -Go to the website
+2023-04-25 17:10:53,084 [main] INFO test.Login_test - Go to the website
+2023-04-25 17:10:53,209 - test.Login_test -INFO -maximize the window
+2023-04-25 17:10:53,209 [main] INFO test.Login_test - maximize the window
+2023-04-25 17:10:53,416 - pages.Login -INFO -Go to sign up page
+2023-04-25 17:10:53,416 [main] INFO pages.Login - Go to sign up page
+2023-04-25 17:10:53,931 - pages.Login -INFO -Enter the first name
+2023-04-25 17:10:53,931 [main] INFO pages.Login - Enter the first name
+2023-04-25 17:10:54,025 - pages.Login -INFO -Enter middle name
+2023-04-25 17:10:54,025 [main] INFO pages.Login - Enter middle name
+2023-04-25 17:10:54,120 - pages.Login -INFO -Enter the last name
+2023-04-25 17:10:54,120 [main] INFO pages.Login - Enter the last name
+2023-04-25 17:10:54,193 - pages.Login -INFO -Enter the phone number
+2023-04-25 17:10:54,193 [main] INFO pages.Login - Enter the phone number
+2023-04-25 17:10:54,333 - pages.Login -INFO -Enter the email address
+2023-04-25 17:10:54,333 [main] INFO pages.Login - Enter the email address
+2023-04-25 17:21:08,011 - test.Login_test -INFO -launch the browser
+2023-04-25 17:21:08,011 [main] INFO test.Login_test - launch the browser
+2023-04-25 17:21:24,672 - test.Login_test -INFO -Go to the website
+2023-04-25 17:21:24,672 [main] INFO test.Login_test - Go to the website
+2023-04-25 17:21:24,840 - test.Login_test -INFO -maximize the window
+2023-04-25 17:21:24,840 [main] INFO test.Login_test - maximize the window
+2023-04-25 17:21:25,664 - pages.Login -INFO -Go to sign up page
+2023-04-25 17:21:25,664 [main] INFO pages.Login - Go to sign up page
+2023-04-25 17:21:32,628 - pages.Login -INFO -Enter the first name
+2023-04-25 17:21:32,628 [main] INFO pages.Login - Enter the first name
+2023-04-25 17:21:32,714 - pages.Login -INFO -Enter middle name
+2023-04-25 17:21:32,714 [main] INFO pages.Login - Enter middle name
+2023-04-25 17:21:32,807 - pages.Login -INFO -Enter the last name
+2023-04-25 17:21:32,807 [main] INFO pages.Login - Enter the last name
+2023-04-25 17:21:32,893 - pages.Login -INFO -Enter the phone number
+2023-04-25 17:21:32,893 [main] INFO pages.Login - Enter the phone number
+2023-04-25 17:21:33,069 - pages.Login -INFO -Enter the email address
+2023-04-25 17:21:33,069 [main] INFO pages.Login - Enter the email address
+2023-04-25 17:24:29,590 - test.Login_test -INFO -launch the browser
+2023-04-25 17:24:29,590 [main] INFO test.Login_test - launch the browser
+2023-04-25 17:24:58,145 - test.Login_test -INFO -Go to the website
+2023-04-25 17:24:58,145 [main] INFO test.Login_test - Go to the website
+2023-04-25 17:24:58,598 - test.Login_test -INFO -maximize the window
+2023-04-25 17:24:58,598 [main] INFO test.Login_test - maximize the window
+2023-04-25 17:24:59,854 - pages.Login -INFO -Go to sign up page
+2023-04-25 17:24:59,854 [main] INFO pages.Login - Go to sign up page
+2023-04-25 17:25:06,688 - pages.Login -INFO -Enter the first name
+2023-04-25 17:25:06,688 [main] INFO pages.Login - Enter the first name
+2023-04-25 17:25:06,914 - pages.Login -INFO -Enter middle name
+2023-04-25 17:25:06,914 [main] INFO pages.Login - Enter middle name
+2023-04-25 17:25:07,015 - pages.Login -INFO -Enter the last name
+2023-04-25 17:25:07,015 [main] INFO pages.Login - Enter the last name
+2023-04-25 17:25:07,168 - pages.Login -INFO -Enter the phone number
+2023-04-25 17:25:07,168 [main] INFO pages.Login - Enter the phone number
+2023-04-25 17:25:07,270 - pages.Login -INFO -Enter the email address
+2023-04-25 17:25:07,270 [main] INFO pages.Login - Enter the email address
+2023-04-25 17:26:43,961 - test.Login_test -INFO -launch the browser
+2023-04-25 17:26:43,961 [main] INFO test.Login_test - launch the browser
+2023-04-25 17:26:51,919 - test.Login_test -INFO -Go to the website
+2023-04-25 17:26:51,919 [main] INFO test.Login_test - Go to the website
+2023-04-25 17:26:52,044 - test.Login_test -INFO -maximize the window
+2023-04-25 17:26:52,044 [main] INFO test.Login_test - maximize the window
+2023-04-25 17:26:52,231 - pages.Login -INFO -Go to sign up page
+2023-04-25 17:26:52,231 [main] INFO pages.Login - Go to sign up page
+2023-04-25 17:27:14,548 - test.Kitchen_decor_test -INFO -launch the browser
+2023-04-25 17:27:14,548 [main] INFO test.Kitchen_decor_test - launch the browser
+2023-04-25 17:27:21,762 - test.Kitchen_decor_test -INFO -Go to the website
+2023-04-25 17:27:21,762 [main] INFO test.Kitchen_decor_test - Go to the website
+2023-04-25 17:27:21,880 - test.Kitchen_decor_test -INFO -maximize the window
+2023-04-25 17:27:21,880 [main] INFO test.Kitchen_decor_test - maximize the window
+2023-04-25 17:27:21,995 - test.Login_test -INFO -launch the browser
+2023-04-25 17:27:21,995 [main] INFO test.Login_test - launch the browser
+2023-04-25 17:27:32,873 - test.Login_test -INFO -Go to the website
+2023-04-25 17:27:32,873 [main] INFO test.Login_test - Go to the website
+2023-04-25 17:27:32,994 - test.Login_test -INFO -maximize the window
+2023-04-25 17:27:32,994 [main] INFO test.Login_test - maximize the window
+2023-04-25 17:27:33,197 - pages.Login -INFO -Go to sign up page
+2023-04-25 17:27:33,197 [main] INFO pages.Login - Go to sign up page
+2023-04-25 17:27:43,857 - pages.Login -INFO -Click into the kitchen and decor menu
+2023-04-25 17:27:43,857 [main] INFO pages.Login - Click into the kitchen and decor menu
+2023-04-25 17:27:50,262 - pages.Login -INFO -check on usa side box
+2023-04-25 17:27:50,262 [main] INFO pages.Login - check on usa side box
+2023-04-25 17:27:56,323 - pages.Login -INFO -check on ready to ship box
+2023-04-25 17:27:56,323 [main] INFO pages.Login - check on ready to ship box
+2023-04-25 17:28:02,408 - pages.Login -INFO -click on category tab
+2023-04-25 17:28:02,408 [main] INFO pages.Login - click on category tab
+2023-04-25 17:28:08,763 - pages.Login -INFO -get the name of product from list
+2023-04-25 17:28:08,763 [main] INFO pages.Login - get the name of product from list
+2023-04-25 17:28:08,852 - pages.Login -INFO -click on the product for go to product page
+2023-04-25 17:28:08,852 [main] INFO pages.Login - click on the product for go to product page
+2023-04-25 17:28:14,904 - pages.Login -INFO -get the name of product from product page
+2023-04-25 17:28:14,904 [main] INFO pages.Login - get the name of product from product page
+2023-04-25 17:28:14,935 - pages.Login -INFO -check the product name are same on list and product page
+2023-04-25 17:28:14,935 [main] INFO pages.Login - check the product name are same on list and product page
+2023-04-25 17:28:15,015 - pages.Login -INFO -go back for other product in list
+2023-04-25 17:28:15,015 [main] INFO pages.Login - go back for other product in list
+2023-04-25 17:31:22,023 - pages.Login -INFO -Go to sign up page
+2023-04-25 17:31:22,023 [main] INFO pages.Login - Go to sign up page
+2023-04-25 17:31:26,191 - pages.Login -INFO -Enter the first name
+2023-04-25 17:31:26,191 [main] INFO pages.Login - Enter the first name
+2023-04-25 17:31:26,517 - pages.Login -INFO -Enter middle name
+2023-04-25 17:31:26,517 [main] INFO pages.Login - Enter middle name
+2023-04-25 17:31:27,408 - pages.Login -INFO -Enter the last name
+2023-04-25 17:31:27,408 [main] INFO pages.Login - Enter the last name
+2023-04-25 17:31:27,595 - pages.Login -INFO -Enter the phone number
+2023-04-25 17:31:27,595 [main] INFO pages.Login - Enter the phone number
+2023-04-25 17:31:27,894 - pages.Login -INFO -Enter the email address
+2023-04-25 17:31:27,894 [main] INFO pages.Login - Enter the email address
+2023-04-25 17:33:22,952 - pages.Login -INFO -Go to sign up page
+2023-04-25 17:33:22,952 [main] INFO pages.Login - Go to sign up page
+2023-04-25 17:33:26,041 - pages.Login -INFO -Enter the first name
+2023-04-25 17:33:26,041 [main] INFO pages.Login - Enter the first name
+2023-04-25 17:33:26,556 - pages.Login -INFO -Enter middle name
+2023-04-25 17:33:26,556 [main] INFO pages.Login - Enter middle name
+2023-04-25 17:33:26,821 - pages.Login -INFO -Enter the last name
+2023-04-25 17:33:26,821 [main] INFO pages.Login - Enter the last name
+2023-04-25 17:33:27,345 - pages.Login -INFO -Enter the phone number
+2023-04-25 17:33:27,345 [main] INFO pages.Login - Enter the phone number
+2023-04-25 17:33:27,521 - pages.Login -INFO -Enter the email address
+2023-04-25 17:33:27,521 [main] INFO pages.Login - Enter the email address
+2023-04-25 22:06:47,819 - test.Login_test -INFO -launch the browser
+2023-04-25 22:06:47,819 [main] INFO test.Login_test - launch the browser
+2023-04-25 22:07:25,042 - test.Login_test -INFO -launch the browser
+2023-04-25 22:07:25,042 [main] INFO test.Login_test - launch the browser
+2023-04-25 22:07:35,887 - test.Login_test -INFO -Go to the website
+2023-04-25 22:07:35,887 [main] INFO test.Login_test - Go to the website
+2023-04-25 22:07:36,611 - test.Login_test -INFO -maximize the window
+2023-04-25 22:07:36,611 [main] INFO test.Login_test - maximize the window
+2023-04-25 22:07:40,829 - pages.Login -INFO -Go to sign up page
+2023-04-25 22:07:40,829 [main] INFO pages.Login - Go to sign up page
+2023-04-25 22:07:45,168 - test.Login_test -INFO -Go to the website
+2023-04-25 22:07:45,168 [main] INFO test.Login_test - Go to the website
+2023-04-25 22:08:30,420 - pages.Login -INFO -Go to sign up page
+2023-04-25 22:08:30,420 [main] INFO pages.Login - Go to sign up page
+2023-04-25 22:08:30,433 - pages.Login -INFO -Go to sign up page
+2023-04-25 22:08:30,433 [main] INFO pages.Login - Go to sign up page
+2023-04-25 22:08:30,468 - pages.Login -INFO -Go to sign up page
+2023-04-25 22:08:30,468 [main] INFO pages.Login - Go to sign up page
+2023-04-25 22:08:33,595 - pages.Login -INFO -Enter the first name
+2023-04-25 22:08:33,595 [main] INFO pages.Login - Enter the first name
+2023-04-25 22:08:33,597 - pages.Login -INFO -Enter the first name
+2023-04-25 22:08:33,597 [main] INFO pages.Login - Enter the first name
+2023-04-25 22:08:33,612 - pages.Login -INFO -Enter the first name
+2023-04-25 22:08:33,612 [main] INFO pages.Login - Enter the first name
+2023-04-25 22:08:33,824 - pages.Login -INFO -Enter middle name
+2023-04-25 22:08:33,824 [main] INFO pages.Login - Enter middle name
+2023-04-25 22:08:33,826 - pages.Login -INFO -Enter middle name
+2023-04-25 22:08:33,826 [main] INFO pages.Login - Enter middle name
+2023-04-25 22:08:33,826 - pages.Login -INFO -Enter middle name
+2023-04-25 22:08:33,826 [main] INFO pages.Login - Enter middle name
+2023-04-25 22:08:33,973 - pages.Login -INFO -Enter the last name
+2023-04-25 22:08:33,973 [main] INFO pages.Login - Enter the last name
+2023-04-25 22:08:33,977 - pages.Login -INFO -Enter the last name
+2023-04-25 22:08:33,977 [main] INFO pages.Login - Enter the last name
+2023-04-25 22:08:33,986 - pages.Login -INFO -Enter the last name
+2023-04-25 22:08:33,986 [main] INFO pages.Login - Enter the last name
+2023-04-25 22:08:34,048 - pages.Login -INFO -Enter the phone number
+2023-04-25 22:08:34,048 - pages.Login -INFO -Enter the phone number
+2023-04-25 22:08:34,048 [main] INFO pages.Login - Enter the phone number
+2023-04-25 22:08:34,048 [main] INFO pages.Login - Enter the phone number
+2023-04-25 22:08:34,058 - pages.Login -INFO -Enter the phone number
+2023-04-25 22:08:34,058 [main] INFO pages.Login - Enter the phone number
+2023-04-25 22:08:34,448 - pages.Login -INFO -Enter the email address
+2023-04-25 22:08:34,448 - pages.Login -INFO -Enter the email address
+2023-04-25 22:08:34,448 [main] INFO pages.Login - Enter the email address
+2023-04-25 22:08:34,448 [main] INFO pages.Login - Enter the email address
+2023-04-25 22:08:34,460 - pages.Login -INFO -Enter the email address
+2023-04-25 22:08:34,460 [main] INFO pages.Login - Enter the email address
