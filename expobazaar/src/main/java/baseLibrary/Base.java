@@ -1,8 +1,16 @@
 package baseLibrary;
 
+import java.awt.Window;
 import java.io.File;
 import java.io.FileInputStream;
+import java.sql.Driver;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Properties;
+import java.util.Set;
+import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -16,7 +24,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -33,6 +43,7 @@ import extentreport.Extentreports;
 import log.Log;
 import net.bytebuddy.agent.builder.AgentBuilder.Identified.Extendable;
 import net.bytebuddy.description.annotation.AnnotationDescription.Loadable;
+
 import propertyUtility.Property;
 import screenshot.Screenshot;
 import wait.implicity;
@@ -47,6 +58,8 @@ public class Base implements implicity,Property, Action , Excel, Screenshot , Ex
  public static ExtentReports reports;
  
  public static ExtentTest test;
+ 
+ 
  
  public void log()
  {
@@ -172,8 +185,70 @@ public void extentreports()
 
 }
 
+public void pdf()
+{
+	File folder = new File(UUID.randomUUID().toString());
+	folder.mkdir();
+  ChromeOptions options = new ChromeOptions();
+  
+  Map<String, Object> prefs = new HashMap<String, Object>();
+  
+  prefs.put("profile.default_content_settings.popups", 0);
+  prefs.put("download.default_directory", folder.getAbsolutePath());
+ 
+}
+	public String windowhandling(int k)
+	{
+		ArrayList<String> Child_windows_list = new ArrayList<String>();
+		String Main_window = driver.getWindowHandle();
+		
+		Set<String> Child_window = driver.getWindowHandles();
+		Iterator<String> itr = Child_window.iterator();
+		int i=0;
+		while (itr.hasNext()) {
+			
+			if(!Main_window.equals(Child_window)) {
+			Child_windows_list.add(itr.next());
+			Child_windows_list.get(i);
+			
+			
+			}
+		}
 
-
+		String value = Child_windows_list.get(i);
+		
+	    driver.switchTo().window(Child_windows_list.get(k));
+	   return value;
+	      
+	}
 	
+	public String random_string(int n)
+	{
+		String random = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvxyz";
+		
+		String gen_random_string= "";
+		try {
+			
+			StringBuilder sb = new StringBuilder(n);
+			
+			for (int i = 0; i < n; i++) {
+				 
+				   
+				   int index
+				    = (int)(random.length()
+				      * Math.random());
+				 
+				   // add Character one by one in end of sb
+				   sb.append(random
+				      .charAt(index));
+				  }
+				 gen_random_string = sb.toString();
+			
+		} catch (Exception e) {
+			System.out.println("Unable to generate string due to"+e);
+		}
+		
+		return gen_random_string;
+	}
 	
 }
