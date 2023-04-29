@@ -144,7 +144,7 @@ public void first_page() throws InterruptedException
 	implicity_wait(5);
 	
 	String email = random_string(5);
-	email = email+"@"+"mailinator.com";
+	
 	System.out.println(email);
 	Email_id.sendKeys(email);
 	logger.info(email);

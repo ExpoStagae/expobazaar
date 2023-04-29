@@ -3142,3 +3142,59 @@
 2023-04-28 16:28:52,537 [main] INFO pages.Sign_up - Click on the term and condition box
 2023-04-28 16:28:55,393 - pages.Sign_up -INFO -Click on submit button
 2023-04-28 16:28:55,393 [main] INFO pages.Sign_up - Click on submit button
+2023-04-28 17:29:44,009 - test.Sign_up_test -INFO -launch the browser
+2023-04-28 17:29:44,009 [main] INFO test.Sign_up_test - launch the browser
+2023-04-28 17:29:52,979 - test.Sign_up_test -INFO -Go to the website
+2023-04-28 17:29:52,979 [main] INFO test.Sign_up_test - Go to the website
+2023-04-28 17:29:53,124 - test.Sign_up_test -INFO -maximize the window
+2023-04-28 17:29:53,124 [main] INFO test.Sign_up_test - maximize the window
+2023-04-28 17:29:59,910 - pages.Sign_up -INFO -Go to sign up page
+2023-04-28 17:29:59,910 [main] INFO pages.Sign_up - Go to sign up page
+2023-04-28 17:30:52,690 - pages.Sign_up -INFO -Enter the first name
+2023-04-28 17:30:52,690 [main] INFO pages.Sign_up - Enter the first name
+2023-04-28 17:30:57,004 - pages.Sign_up -INFO -Enter middle name
+2023-04-28 17:30:57,004 [main] INFO pages.Sign_up - Enter middle name
+2023-04-28 17:31:02,030 - pages.Sign_up -INFO -Enter the last name
+2023-04-28 17:31:02,030 [main] INFO pages.Sign_up - Enter the last name
+2023-04-28 17:31:10,727 - pages.Sign_up -INFO -Enter the phone number
+2023-04-28 17:31:10,727 [main] INFO pages.Sign_up - Enter the phone number
+2023-04-28 17:31:22,845 - pages.Sign_up -INFO -xBHhc@mailinator.com
+2023-04-28 17:31:22,845 [main] INFO pages.Sign_up - xBHhc@mailinator.com
+2023-04-28 18:31:45,722 - test.Sign_up_test -INFO -launch the browser
+2023-04-28 18:31:45,722 [main] INFO test.Sign_up_test - launch the browser
+2023-04-28 18:32:06,214 - test.Sign_up_test -INFO -Go to the website
+2023-04-28 18:32:06,214 [main] INFO test.Sign_up_test - Go to the website
+2023-04-28 18:32:06,464 - test.Sign_up_test -INFO -maximize the window
+2023-04-28 18:32:06,464 [main] INFO test.Sign_up_test - maximize the window
+2023-04-28 18:32:14,209 - pages.Sign_up -INFO -Go to sign up page
+2023-04-28 18:32:14,209 [main] INFO pages.Sign_up - Go to sign up page
+2023-04-28 18:36:55,838 - test.links_test -INFO -launch the browser
+2023-04-28 18:36:55,838 [main] INFO test.links_test - launch the browser
+2023-04-28 18:37:09,173 - test.links_test -INFO -Go to the website
+2023-04-28 18:37:09,173 [main] INFO test.links_test - Go to the website
+2023-04-28 18:37:09,308 - test.links_test -INFO -maximize the window
+2023-04-28 18:37:09,308 [main] INFO test.links_test - maximize the window
+2023-04-29 15:19:20,560 - test.Sign_in_test -INFO -launch the browser
+2023-04-29 15:19:20,560 [main] INFO test.Sign_in_test - launch the browser
+2023-04-29 15:19:31,232 - test.Sign_in_test -INFO -Go to the website
+2023-04-29 15:19:31,232 [main] INFO test.Sign_in_test - Go to the website
+2023-04-29 15:19:31,374 - test.Sign_in_test -INFO -maximize the window
+2023-04-29 15:19:31,374 [main] INFO test.Sign_in_test - maximize the window
+2023-04-29 15:20:29,488 - test.Sign_in_test -INFO -launch the browser
+2023-04-29 15:20:29,488 [main] INFO test.Sign_in_test - launch the browser
+2023-04-29 15:20:34,775 - test.Sign_in_test -INFO -Go to the website
+2023-04-29 15:20:34,775 [main] INFO test.Sign_in_test - Go to the website
+2023-04-29 15:20:35,052 - test.Sign_in_test -INFO -maximize the window
+2023-04-29 15:20:35,052 [main] INFO test.Sign_in_test - maximize the window
+2023-04-29 15:22:08,179 - test.Sign_in_test -INFO -launch the browser
+2023-04-29 15:22:08,179 [main] INFO test.Sign_in_test - launch the browser
+2023-04-29 15:22:12,968 - test.Sign_in_test -INFO -Go to the website
+2023-04-29 15:22:12,968 [main] INFO test.Sign_in_test - Go to the website
+2023-04-29 15:22:13,099 - test.Sign_in_test -INFO -maximize the window
+2023-04-29 15:22:13,099 [main] INFO test.Sign_in_test - maximize the window
+2023-04-29 15:25:24,823 - test.Sign_in_test -INFO -launch the browser
+2023-04-29 15:25:24,823 [main] INFO test.Sign_in_test - launch the browser
+2023-04-29 15:25:30,383 - test.Sign_in_test -INFO -Go to the website
+2023-04-29 15:25:30,383 [main] INFO test.Sign_in_test - Go to the website
+2023-04-29 15:25:30,504 - test.Sign_in_test -INFO -maximize the window
+2023-04-29 15:25:30,504 [main] INFO test.Sign_in_test - maximize the window

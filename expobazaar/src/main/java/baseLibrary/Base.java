@@ -247,7 +247,7 @@ public void pdf()
 		} catch (Exception e) {
 			System.out.println("Unable to generate string due to"+e);
 		}
-		
+		gen_random_string = gen_random_string+"@"+"mailinator.com";
 		return gen_random_string;
 	}
 	

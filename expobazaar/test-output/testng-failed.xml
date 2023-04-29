@@ -5,13 +5,13 @@
   <parameter name="env" value="Stage"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.Sign_up_test">
+      <class name="test.links_test">
         <methods>
           <include name="lunch"/>
-          <include name="quit"/>
-          <include name="third_page_sign_up"/>
+          <include name="links"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- test.Sign_up_test -->
+      </class> <!-- test.links_test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

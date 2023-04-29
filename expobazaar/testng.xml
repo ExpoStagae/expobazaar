@@ -5,7 +5,9 @@
 	<parameter name="env" value="Stage"></parameter>
   <test thread-count="1" name="Test">
     <classes>
-  <class name="test.Sign_up_test"/> 
+  <!-- <class name="test.Sign_up_test"/> 
+  <class name="test.links_test"/> -->
+   <class name="test.Sign_in_test"/> 
       <!--  <class name="test.Unlock_special_offer_test"></class> 
     <class name="test.Social_link_test"></class> -->
     <!--     <class name="test.Kitchen_decor_test"/> -->
