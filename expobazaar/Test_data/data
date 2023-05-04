@@ -1,5 +1,9 @@
-Stage= https://expobazaar.com
+prod = https://expobazaar.com
+Stage = http://buyeruniversalstaging-env.eba-xxiudxq2.ap-south-1.elasticbeanstalk.com/
+
 business_id = 123456789
 
 User_name= rohit.kashyap@expobazaar.com
 password = rohitandgullo@123456
+
+gmail_pass = Gullo@071988

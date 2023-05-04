@@ -7,5 +7,5 @@ public interface Action {
 
 	public void actio( WebElement element, WebDriver driver);
 	
-	
+	public void action_drag(WebElement element, WebDriver driver);
 }

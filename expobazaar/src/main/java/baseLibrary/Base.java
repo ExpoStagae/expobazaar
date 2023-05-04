@@ -13,6 +13,8 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
+import javax.lang.model.element.Element;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.logging.impl.Log4JLogger;
 import org.apache.log4j.Logger;
@@ -21,6 +23,7 @@ import org.apache.poi.xssf.usermodel.XSSFAnchor;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,6 +35,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Parameters;
 
@@ -114,7 +118,7 @@ public void thread_sleep(int time) {
 }
 public String property(String Key) {
 	String value = "";
-	String path="C:\\Users\\rohit.kashyap\\eclipse-workspace\\expobazaar\\Test_data\\data";
+	String path="C:\\Users\\rohit.kashyap\\git\\repository\\expobazaar\\Test_data\\data";
 	
 	try {
 		
@@ -134,7 +138,7 @@ public void actio(WebElement element, WebDriver driver) {
 	
 	Actions act = new Actions(driver);
 	
-	act.dragAndDropBy(element, 0, 0).perform();
+	act.dragAndDropBy(element, 20, 0).perform();
 	
 
 }
@@ -144,7 +148,7 @@ public void explicity_wait(WebDriver driver, int time, WebElement elment) {
 	
 }
 public String readdata_excel( int sheet_no, int Row_no, int col_no) {
-	String path="C:\\Users\\rohit.kashyap\\eclipse-workspace\\expobazaar\\Test_data\\Test_data.xlsx";
+	String path="C:\\Users\\rohit.kashyap\\git\\repository\\expobazaar\\Test_data\\Test_data.xlsx";
 	String value = "";
 	try {
 		
@@ -251,4 +255,46 @@ public void pdf()
 		return gen_random_string;
 	}
 	
+	public void select(WebElement select, String text)
+	{
+		Select sel = new Select(select);
+		sel.selectByValue(text);
+		
+		
+	}
+	public int minimum_value(String minimum)
+	{
+minimum = minimum.replaceAll("[^0-9]", "").trim();
+		
+		int moq_int = Integer.parseInt(minimum);
+		return moq_int;
+	}
+	
+	public float minimum_value_float(String minimum)
+	{
+minimum = minimum.replaceAll("[^0-9]", "").trim();
+		
+		float moq_float = Float.parseFloat(minimum);
+		return moq_float;
+	}
+
+
+
+
+
+	public void action_drag(WebElement element, WebDriver driver) {
+		Actions act = new Actions(driver);
+		act.moveToElement(element).build().perform();
+		act.clickAndHold();
+		
+	}
+	
+	public void js()
+	{
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+	
+		
+		
+		
+	}
 }
