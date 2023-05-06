@@ -1,5 +1,9 @@
 package test;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -30,12 +34,29 @@ public void Social_links()
 {
 try {
  Assert.assertEquals(ob.facebook(), "ExpoBazaar");
+ test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Facebook page is working");
+ob.close();
+
  Assert.assertEquals(ob.twitter(), "ExpoBazaar");
-// Assert.assertEquals(ob.Instagram(), "expobazaarindia");
+ test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Instagram page is working ");
+ ob.close();
+ 
+ Assert.assertEquals(ob.Instagram(), "expobazaarindia");
+ test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Instagram page is working");
+ ob.close();
+ 
  Assert.assertEquals(ob.Linkedin(), "ExpoBazaar");
+ test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Linkedin page is working");
+ ob.close();
+ 
  Assert.assertEquals(ob.Pinterest(), "ExpoBazaar");
+ test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Pinterest page is working");
+ ob.close();
+ 
  Assert.assertEquals(ob.youtube(), "ExpoBazaar");
- test.log(LogStatus.PASS, "Soical links work successfully");
+ test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Youtube page is working");
+ ob.close();
+ 
 }
 catch (Exception e) {
 	  

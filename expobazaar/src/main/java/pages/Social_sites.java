@@ -90,8 +90,7 @@ windowhandling(1);
 	
 	String Facebook_Msg_text = Facebook_Msg.getText();
       
-	driver.close();
-	driver.switchTo().window(parent);
+
 	
 	System.out.println(Facebook_Msg_text);
 	
@@ -118,8 +117,7 @@ windowhandling(1);
 	}
 	   String Linkedin_Msg_text = Linkedin_msg.getText();
 	   System.out.println(Linkedin_Msg_text);
-	   driver.close();
-	   driver.switchTo().window(parent);
+
 	   return Linkedin_Msg_text;
    }
    
@@ -142,8 +140,7 @@ windowhandling(1);
 	}
 	   String Twitter_Msg_text = twitter_msg.getText();
 	   System.out.println(Twitter_Msg_text);
-	   driver.close();
-	   driver.switchTo().window(parent);
+
 	   return Twitter_Msg_text;
    }
    
@@ -163,10 +160,10 @@ windowhandling(1);
 		
 		   System.out.println("Instagram link is not working");
 	}
+	   Thread.sleep(5000);
 	   String Instagram_Msg_text = instagram_msg.getText();
 	   System.out.println(Instagram_Msg_text);
-	   driver.close();
-	   driver.switchTo().window(parent);
+
 	   return Instagram_Msg_text;
    }
    
@@ -188,8 +185,7 @@ windowhandling(1);
 	}
 	   String pinterest_Msg_text = Pinterest_msg.getText();
 	   System.out.println(pinterest_Msg_text);
-	   driver.close();
-	   driver.switchTo().window(parent);
+
 	   return pinterest_Msg_text;
    }
    
@@ -211,9 +207,16 @@ windowhandling(1);
 	}
 	   String youtube_Msg_text = youtube_msg.getText();
 	   System.out.println(youtube_Msg_text);
+
+	   return youtube_Msg_text;
+   }
+   
+   public void close()
+   {
+	   String parent = windowhandling(0);
+	   windowhandling(1);
 	   driver.close();
 	   driver.switchTo().window(parent);
-	   return youtube_Msg_text;
    }
 }
 

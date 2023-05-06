@@ -19,11 +19,12 @@ import org.testng.Assert;
 
 import baseLibrary.Base;
 
-public class Kitchen_decor extends Base {
+public class Add_to_cart extends Base {
 	
 	int moq_int;
+	boolean flag = true;
 	
-	public Kitchen_decor() {
+	public Add_to_cart() {
     
 		PageFactory.initElements(driver, this);
 	}
@@ -79,6 +80,14 @@ public class Kitchen_decor extends Base {
 	@FindBy(xpath = "(//a[@href='/cart'])[1]")
 	private WebElement go_to_cart;
 	
+	@FindBy(xpath = "//*[@id='toast-container']")
+	private WebElement product_added;
+	
+	@FindBy(xpath = "//*[@class='ng-tns-c41-1 toast-message ng-star-inserted']")
+	private WebElement minumum_quantity_toast;
+	
+	@FindBy(xpath = "//*[text()= ' Detailed Information ']")
+    private WebElement detailed;
 	
 	@FindBy(xpath = "(//h1)[2]")
 	private WebElement h2;
@@ -93,12 +102,67 @@ public class Kitchen_decor extends Base {
 	
 	public void minimum_value()
 	{
+		
 		minimum_quantity.clear();
-	    moq_int = moq_int-1;
+      
+		int a=moq_int-1;
 		
-		minimum_quantity.sendKeys(String.valueOf(moq_int));
-		minimum_quantity.sendKeys(Keys.ENTER);
 		
+		
+		minimum_quantity.sendKeys(String.valueOf(a));
+	   // detailed.click();
+		
+		
+try {
+			
+	String min_string = minimum_order_quantity.getText();
+	explicity_wait(driver, 10, minumum_quantity_toast);
+	String value_of_minimum =	  minumum_quantity_toast.getText().replace("/n", " ");
+	System.out.println(value_of_minimum);
+			
+			if(value_of_minimum.contains("Minimum quantity cannot be less than 1"));
+			{
+				System.out.println("please choose order value greater minimum value");
+			}   
+		}
+			catch (Exception e) {
+			
+			System.out.println("Functionality not working properly");
+		}
+		
+		
+		
+	}
+	
+	public void maximum_value() throws InterruptedException
+	{
+		Thread.sleep(5000);
+		minimum_quantity.clear();
+	      
+		int a=moq_int+1;
+		
+		
+		
+		minimum_quantity.sendKeys(String.valueOf(a));
+		detailed.click();
+		
+		
+try {
+			
+	
+	explicity_wait(driver, 10, minumum_quantity_toast);
+	String value_of_minimum =	  minumum_quantity_toast.getText().replace("/n", " ");
+	System.out.println(value_of_minimum);
+			
+			if(value_of_minimum.contains("Minimum quantity cannot be less than 1"));
+			{
+				System.out.println("please choose order value greater minimum value");
+			}   
+		}
+			catch (Exception e) {
+			
+			System.out.println("Functionality  working properly");
+		}
 		
 		
 	}
@@ -119,20 +183,25 @@ try {
 }
 
 implicity_wait(10);
-//	Usa_side_check.click();
-//	logger.info("check on usa side box");
-//	Thread.sleep(6000);
+
 	
 	Ready_to_ship_check.click();
 	logger.info("check on ready to ship box");
 	
 	Thread.sleep(6000);
-	category.click();
-	logger.info("click on category tab");
-	 refresh();
-	 implicity_wait(10);
-	 list.get(3).click();
+
 	
+	 
+	
+	}
+	
+	public void choose_item() throws InterruptedException
+	{
+		 refresh();
+		 implicity_wait(10);
+		list.get(3).click();
+		Thread.sleep(6000);
+		
 	}
 		
 		
@@ -174,7 +243,7 @@ implicity_wait(10);
 	
 	}
 	
-	public void kitchen_decor() throws InterruptedException
+	public void miminum_value_check() throws InterruptedException
 	{
 		
 		
@@ -189,29 +258,37 @@ implicity_wait(10);
 		
 		minimum_value();
 		
-		try {
-			
-			String min_string = minimum_order_quantity.getText();
-			
-			if(min_string.contains(" Minimum quantity cannot be less than 1 "))
-			{
-				System.out.println("please choose order value greater minimum value");
-			 moq_int++;
-				minimum_value();
-			}
-			
-			
-		} catch (Exception e) {
-			
-			System.out.println("your order is selected");
 		}
-		explicity_wait(driver, 10, add_to_cart);
+	
+	public void gotocart() throws InterruptedException
+	{
+explicity_wait(driver, 10, add_to_cart);
 		
 		add_to_cart.click();
 		
+		try {
+			explicity_wait(driver, 10, product_added);
+	String product_added_text =	product_added.getText();
+	System.out.println(product_added_text);
+			if(product_added_text.equalsIgnoreCase(" Product has been added in your cart "))
+			{
+				System.out.println("product added successfully added");
+				
+			}
+			if(product_added_text.equalsIgnoreCase(" Product already added to cart "))
+			{
+				System.out.println("product is alread in the card");
+				
+			}
+			
+		} catch (Exception e) {
+			
+			System.out.println("There have some problem to add this product in card"+e);
+		}
 		Thread.sleep(10000);
 		go_to_cart.click();
-		}
+		
+	}
 		
 	public void bulk_enquiry()
 	{

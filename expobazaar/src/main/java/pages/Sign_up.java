@@ -98,7 +98,7 @@ private WebElement billing_zipcode;
 
 ArrayList<String> Child_windows_list = new ArrayList<String>();
 
-@FindBy(xpath = "//button[text()='Next ']")
+@FindBy(xpath = "//button[contains(@type,'submit')]")
 private WebElement next2;
 
 //web elements for sign up third page
@@ -127,8 +127,11 @@ public void first_page() throws InterruptedException
 	logger.info("Go to sign up page");
 	implicity_wait(5);
 	
-	First_name.sendKeys(readdata_excel(0, 1, 0));
 	logger.info("Enter the first name");
+	
+	
+	First_name.sendKeys(readdata_excel(0, 1, 0));
+	
 	implicity_wait(5);
 	
 	Middle_name.sendKeys(readdata_excel(0, 1, 1));
@@ -146,11 +149,11 @@ public void first_page() throws InterruptedException
 	String email = random_string(5);
 	
 	System.out.println(email);
-	Email_id.sendKeys(email);
+	Email_id.sendKeys(random_string(5));
 	logger.info(email);
 	implicity_wait(5);
 	
-	next_button.click();
+	//next_button.click();
 }
 
 public void second_page() throws InterruptedException
@@ -214,13 +217,13 @@ public void second_page() throws InterruptedException
     implicity_wait(5);
     
     Thread.sleep(6000);
-    next2.click();
+    //next2.click();
     logger.info("Click on next button");
     
     
 }
 
-public String third_page() throws InterruptedException
+public void third_page() throws InterruptedException
 {
 
 	
@@ -242,20 +245,43 @@ public String third_page() throws InterruptedException
     
     w9_form.sendKeys("C:\\Users\\rohit.kashyap\\fw9.pdf");
     
+     Thread.sleep(5000);
 	term_agree_conditions.click();
 	logger.info("Click on the term and condition box");
 	implicity_wait(10);
 	
-	submit_button.click();
-	logger.info("Click on submit button");
-	implicity_wait(10);
-
-	String successfully = successfully_created.getText();
-	System.out.println(successfully);
 	
-	Thread.sleep(10000);
-	return successfully;
+
+	
 
 }
 
+public void next()
+{
+next_button.click();	
+}
+
+public void next2()
+{
+next2.click();	
+}
+public void Submitt() throws InterruptedException
+{
+	submit_button.click();
+	logger.info("Click on submit button");
+	Thread.sleep(10000);
+		
+}
+
+
+public String Verifymsg() throws InterruptedException
+{
+	String successfully = successfully_created.getText();
+	successfully = successfully.replaceAll("\n", "");
+
+	System.out.println(successfully);
+	
+	Thread.sleep(5000);
+	return successfully;
+}
 }

@@ -5,14 +5,14 @@
 	  <parameter name="browser" value="chrome"></parameter>
 	  <parameter name="env" value="Stage"></parameter>
     <classes>
-    <!--   <class name="test.links_test"/>
-     <class name="test.Sign_up_test"/>
-      <class name="test.Sign_in_test"/>
-      <class name="test.Kitchen_decor_test"/>
-       <class name="test.Social_link_test"/> -->
-       <class name="test.Profile_edit_test"/>
-       <class name="test.Profile_test"/>
-    <!-- <class name="test.Unlock_special_offer_test"/> -->
+      <!--   <class name="test.links_test"/>-->
+   <class name="test.Sign_up_test"/>
+     <!-- <class name="test.Sign_in_test"/>
+         <class name="test.Kitchen_decor_test"/>
+        <class name="test.Social_link_test"/> 
+        <class name="test.Profile_edit_test"/>
+      <class name="test.Profile_test"/> -->
+   <!--    <class name="test.Unlock_special_offer_test"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

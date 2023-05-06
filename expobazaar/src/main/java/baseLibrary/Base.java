@@ -3,6 +3,7 @@ package baseLibrary;
 import java.awt.Window;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.sql.Driver;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,6 +13,8 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.LogManager;
+import  org.apache.log4j.*;
 
 import javax.lang.model.element.Element;
 
@@ -25,6 +28,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WebDriver.Options;
@@ -39,6 +43,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Parameters;
 
+import com.aventstack.extentreports.reporter.ExtentAventReporter;
 import com.relevantcodes.extentreports.*;
 
 import applicationUtility.Action;
@@ -70,6 +75,7 @@ public class Base implements implicity,Property, Action , Excel, Screenshot , Ex
 	 logger = Logger.getLogger(getClass());
 	 PropertyConfigurator.configure("Log4j.properties");
 	 
+   
 	 
  }
  
@@ -167,7 +173,7 @@ public String readdata_excel( int sheet_no, int Row_no, int col_no) {
 public void getscreenshots(String foldername, String filename) {
 	String loc = System.getProperty("user.dir");
 	
-	String path = "";
+	String path = "C:\\Users\\rohit.kashyap\\git\\repository\\expobazaar\\Screenshot";
 	
 	try {
 		 
@@ -185,7 +191,8 @@ public void getscreenshots(String foldername, String filename) {
 public void extentreports() 
 {
 	
-	reports = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html");
+	reports = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html",false);
+    
 
 }
 
@@ -289,12 +296,25 @@ minimum = minimum.replaceAll("[^0-9]", "").trim();
 		
 	}
 	
-	public void js()
+	public void js_scroll()
 	{
 	JavascriptExecutor js = (JavascriptExecutor) driver;
-	
+	js.executeScript("window.scrollBy(0,350)", "");
 		
 		
 		
 	}
+
+	public static String capture(WebDriver driver) throws IOException {
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		File Dest = new File("src/../ErrImages/" + System.currentTimeMillis()
+		+ ".png");
+		String errflpath = Dest.getAbsolutePath();
+		FileUtils.copyFile(scrFile, Dest);
+		return errflpath;
+		}
+
+
+
+	
 }

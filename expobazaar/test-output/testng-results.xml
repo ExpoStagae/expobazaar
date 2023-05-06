@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-04T15:13:49 IST" name="Suite" finished-at="2023-05-04T15:14:33 IST" duration-ms="43624">
+  <suite started-at="2023-05-06T17:13:15 IST" name="Suite" finished-at="2023-05-06T17:26:44 IST" duration-ms="809184">
     <groups>
     </groups>
-    <test started-at="2023-05-04T15:13:49 IST" name="Test1" finished-at="2023-05-04T15:14:33 IST" duration-ms="43624">
-      <class name="test.Unlock_special_offer_test">
-        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.Unlock_special_offer_test@1a451d4d]" started-at="2023-05-04T15:13:49 IST" name="lunch" finished-at="2023-05-04T15:14:17 IST" duration-ms="28287" status="PASS">
+    <test started-at="2023-05-06T17:13:15 IST" name="Test1" finished-at="2023-05-06T17:14:38 IST" duration-ms="83336">
+      <class name="test.links_test">
+        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.links_test@59fd97a8]" started-at="2023-05-06T17:13:15 IST" name="lunch" finished-at="2023-05-06T17:13:47 IST" duration-ms="32227" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,267 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunch -->
-        <test-method signature="Unloac_offer_price()[pri:0, instance:test.Unlock_special_offer_test@1a451d4d]" started-at="2023-05-04T15:14:17 IST" name="Unloac_offer_price" finished-at="2023-05-04T15:14:31 IST" duration-ms="13589" status="PASS">
+        <test-method signature="links()[pri:0, instance:test.links_test@59fd97a8]" started-at="2023-05-06T17:13:47 IST" name="links" finished-at="2023-05-06T17:14:36 IST" duration-ms="49486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.links_test@59fd97a8]" started-at="2023-05-06T17:14:36 IST" name="close" finished-at="2023-05-06T17:14:38 IST" duration-ms="1587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.links_test -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-05-06T17:14:38 IST" name="Test2" finished-at="2023-05-06T17:15:40 IST" duration-ms="61933">
+      <class name="test.Sign_up_test">
+        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.Sign_up_test@79e2c065]" started-at="2023-05-06T17:14:38 IST" name="lunch" finished-at="2023-05-06T17:15:05 IST" duration-ms="27501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch -->
+        <test-method signature="Sign_up_first()[pri:1, instance:test.Sign_up_test@79e2c065]" started-at="2023-05-06T17:15:05 IST" name="Sign_up_first" finished-at="2023-05-06T17:15:14 IST" duration-ms="8964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_up_first -->
+        <test-method signature="sign_up_second_page()[pri:2, instance:test.Sign_up_test@79e2c065]" started-at="2023-05-06T17:15:14 IST" name="sign_up_second_page" finished-at="2023-05-06T17:15:22 IST" duration-ms="7823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_up_second_page -->
+        <test-method signature="third_page_sign_up()[pri:3, instance:test.Sign_up_test@79e2c065]" started-at="2023-05-06T17:15:22 IST" name="third_page_sign_up" finished-at="2023-05-06T17:15:29 IST" duration-ms="6420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third_page_sign_up -->
+        <test-method signature="Verify_msg()[pri:4, instance:test.Sign_up_test@79e2c065]" started-at="2023-05-06T17:15:29 IST" name="Verify_msg" finished-at="2023-05-06T17:15:39 IST" duration-ms="10119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_msg -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.Sign_up_test@79e2c065]" started-at="2023-05-06T17:15:39 IST" name="quit" finished-at="2023-05-06T17:15:40 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- test.Sign_up_test -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-05-06T17:15:40 IST" name="Test3" finished-at="2023-05-06T17:16:51 IST" duration-ms="71237">
+      <class name="test.Sign_in_test">
+        <test-method is-config="true" signature="luanch(java.lang.String,java.lang.String)[pri:0, instance:test.Sign_in_test@74fe5c40]" started-at="2023-05-06T17:15:40 IST" name="luanch" finished-at="2023-05-06T17:16:09 IST" duration-ms="28636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanch -->
+        <test-method signature="sign_in()[pri:1, instance:test.Sign_in_test@74fe5c40]" started-at="2023-05-06T17:16:09 IST" name="sign_in" finished-at="2023-05-06T17:16:15 IST" duration-ms="6080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in -->
+        <test-method signature="invalid_password()[pri:2, instance:test.Sign_in_test@74fe5c40]" started-at="2023-05-06T17:16:15 IST" name="invalid_password" finished-at="2023-05-06T17:16:28 IST" duration-ms="13699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_password -->
+        <test-method signature="invalid_username()[pri:3, instance:test.Sign_in_test@74fe5c40]" started-at="2023-05-06T17:16:28 IST" name="invalid_username" finished-at="2023-05-06T17:16:38 IST" duration-ms="9592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_username -->
+        <test-method signature="sign()[pri:4, instance:test.Sign_in_test@74fe5c40]" started-at="2023-05-06T17:16:38 IST" name="sign" finished-at="2023-05-06T17:16:50 IST" duration-ms="11912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:test.Sign_in_test@74fe5c40]" started-at="2023-05-06T17:16:50 IST" name="tear_down" finished-at="2023-05-06T17:16:51 IST" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- test.Sign_in_test -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-05-06T17:16:51 IST" name="Test8" finished-at="2023-05-06T17:19:22 IST" duration-ms="150354">
+      <class name="test.Add_to_cart_test">
+        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.Add_to_cart_test@1623b78d]" started-at="2023-05-06T17:16:51 IST" name="lunch" finished-at="2023-05-06T17:17:37 IST" duration-ms="45611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch -->
+        <test-method signature="kitchen()[pri:1, instance:test.Add_to_cart_test@1623b78d]" started-at="2023-05-06T17:17:37 IST" name="kitchen" finished-at="2023-05-06T17:17:54 IST" duration-ms="17499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kitchen -->
+        <test-method signature="choose()[pri:2, instance:test.Add_to_cart_test@1623b78d]" started-at="2023-05-06T17:17:54 IST" name="choose" finished-at="2023-05-06T17:18:01 IST" duration-ms="6318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- choose -->
+        <test-method signature="select_item()[pri:3, instance:test.Add_to_cart_test@1623b78d]" started-at="2023-05-06T17:18:01 IST" name="select_item" finished-at="2023-05-06T17:18:26 IST" duration-ms="25839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_item -->
+        <test-method signature="gotocart()[pri:4, instance:test.Add_to_cart_test@1623b78d]" started-at="2023-05-06T17:18:26 IST" name="gotocart" finished-at="2023-05-06T17:18:42 IST" duration-ms="15868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotocart -->
+        <test-method signature="ready_to_ship()[pri:5, instance:test.Add_to_cart_test@1623b78d]" started-at="2023-05-06T17:18:42 IST" name="ready_to_ship" finished-at="2023-05-06T17:19:20 IST" duration-ms="38039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ready_to_ship -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.Add_to_cart_test@1623b78d]" started-at="2023-05-06T17:19:20 IST" name="quit" finished-at="2023-05-06T17:19:22 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- test.Add_to_cart_test -->
+    </test> <!-- Test8 -->
+    <test started-at="2023-05-06T17:19:22 IST" name="Test4" finished-at="2023-05-06T17:20:39 IST" duration-ms="77106">
+      <class name="test.Profile_test">
+        <test-method is-config="true" signature="launc(java.lang.String,java.lang.String)[pri:0, instance:test.Profile_test@4efbca5a]" started-at="2023-05-06T17:19:22 IST" name="launc" finished-at="2023-05-06T17:20:08 IST" duration-ms="46433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launc -->
+        <test-method signature="my_account()[pri:1, instance:test.Profile_test@4efbca5a]" started-at="2023-05-06T17:20:08 IST" name="my_account" finished-at="2023-05-06T17:20:17 IST" duration-ms="8552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_account -->
+        <test-method signature="profile()[pri:2, instance:test.Profile_test@4efbca5a]" started-at="2023-05-06T17:20:17 IST" name="profile" finished-at="2023-05-06T17:20:37 IST" duration-ms="20854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profile -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:test.Profile_test@4efbca5a]" started-at="2023-05-06T17:20:37 IST" name="tear_down" finished-at="2023-05-06T17:20:39 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- test.Profile_test -->
+    </test> <!-- Test4 -->
+    <test started-at="2023-05-06T17:20:39 IST" name="Test5" finished-at="2023-05-06T17:24:27 IST" duration-ms="227811">
+      <class name="test.Profile_edit_test">
+        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String)[pri:0, instance:test.Profile_edit_test@1bd4fdd]" started-at="2023-05-06T17:20:39 IST" name="launch" finished-at="2023-05-06T17:21:24 IST" duration-ms="45377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Edit_profile()[pri:1, instance:test.Profile_edit_test@1bd4fdd]" started-at="2023-05-06T17:21:24 IST" name="Edit_profile" finished-at="2023-05-06T17:21:35 IST" duration-ms="11152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_profile -->
+        <test-method signature="edt_info()[pri:2, instance:test.Profile_edit_test@1bd4fdd]" started-at="2023-05-06T17:21:35 IST" name="edt_info" finished-at="2023-05-06T17:21:51 IST" duration-ms="15960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edt_info -->
+        <test-method signature="password_reset_again()[pri:3, instance:test.Profile_edit_test@1bd4fdd]" started-at="2023-05-06T17:21:51 IST" name="password_reset_again" finished-at="2023-05-06T17:22:54 IST" duration-ms="63082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password_reset_again -->
+        <test-method signature="reset_password_again()[pri:4, instance:test.Profile_edit_test@1bd4fdd]" started-at="2023-05-06T17:22:54 IST" name="reset_password_again" finished-at="2023-05-06T17:24:25 IST" duration-ms="90798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset_password_again -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:test.Profile_edit_test@1bd4fdd]" started-at="2023-05-06T17:24:25 IST" name="tear_down" finished-at="2023-05-06T17:24:27 IST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- test.Profile_edit_test -->
+    </test> <!-- Test5 -->
+    <test started-at="2023-05-06T17:24:27 IST" name="Test6" finished-at="2023-05-06T17:26:02 IST" duration-ms="95401">
+      <class name="test.Social_link_test">
+        <test-method is-config="true" signature="launc(java.lang.String,java.lang.String)[pri:0, instance:test.Social_link_test@293a5bf6]" started-at="2023-05-06T17:24:27 IST" name="launc" finished-at="2023-05-06T17:24:59 IST" duration-ms="32785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launc -->
+        <test-method signature="Social_links()[pri:0, instance:test.Social_link_test@293a5bf6]" started-at="2023-05-06T17:24:59 IST" name="Social_links" finished-at="2023-05-06T17:26:01 IST" duration-ms="61255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Social_links -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.Social_link_test@293a5bf6]" started-at="2023-05-06T17:26:01 IST" name="close" finished-at="2023-05-06T17:26:02 IST" duration-ms="1359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.Social_link_test -->
+    </test> <!-- Test6 -->
+    <test started-at="2023-05-06T17:26:02 IST" name="Test9" finished-at="2023-05-06T17:26:44 IST" duration-ms="41691">
+      <class name="test.Unlock_special_offer_test">
+        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.Unlock_special_offer_test@409bf450]" started-at="2023-05-06T17:26:02 IST" name="lunch" finished-at="2023-05-06T17:26:31 IST" duration-ms="28625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunch -->
+        <test-method signature="Unloac_offer_price()[pri:0, instance:test.Unlock_special_offer_test@409bf450]" started-at="2023-05-06T17:26:31 IST" name="Unloac_offer_price" finished-at="2023-05-06T17:26:43 IST" duration-ms="11873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Unloac_offer_price -->
-        <test-method is-config="true" signature="close()[pri:0, instance:test.Unlock_special_offer_test@1a451d4d]" started-at="2023-05-04T15:14:31 IST" name="close" finished-at="2023-05-04T15:14:33 IST" duration-ms="1696" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:test.Unlock_special_offer_test@409bf450]" started-at="2023-05-06T17:26:43 IST" name="close" finished-at="2023-05-06T17:26:44 IST" duration-ms="1185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- test.Unlock_special_offer_test -->
-    </test> <!-- Test1 -->
+    </test> <!-- Test9 -->
   </suite> <!-- Suite -->
 </testng-results>
