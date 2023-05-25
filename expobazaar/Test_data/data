@@ -1,4 +1,4 @@
-prod = https://expobazaar.com
+
 Stage = http://buyeruniversalstaging-env.eba-xxiudxq2.ap-south-1.elasticbeanstalk.com/
 
 business_id = 123456789
