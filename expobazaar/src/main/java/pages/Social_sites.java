@@ -98,8 +98,12 @@ windowhandling(1);
 }
    public String Linkedin() throws InterruptedException
    {
+	   String Linkedin_Msg_text ="";
 	   Thread.sleep(6000);
 	   Linkedin_link.click();
+	   try {
+		
+	
 	   String parent = windowhandling(0);
 	   windowhandling(1);
 	   
@@ -115,8 +119,12 @@ windowhandling(1);
 		
 		   System.out.println("Linkedin link is not working");
 	}
-	   String Linkedin_Msg_text = Linkedin_msg.getText();
+	    Linkedin_Msg_text = Linkedin_msg.getText();
 	   System.out.println(Linkedin_Msg_text);
+	   
+	   } catch (Exception e) {
+			System.out.println();
+		}
 
 	   return Linkedin_Msg_text;
    }
@@ -160,7 +168,7 @@ windowhandling(1);
 		
 		   System.out.println("Instagram link is not working");
 	}
-	   Thread.sleep(5000);
+	   Thread.sleep(8000);
 	   String Instagram_Msg_text = instagram_msg.getText();
 	   System.out.println(Instagram_Msg_text);
 

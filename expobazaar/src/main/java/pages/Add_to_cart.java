@@ -8,6 +8,7 @@ import java.util.Scanner;
 import javax.xml.xpath.XPath;
 
 import org.apache.poi.ss.formula.functions.MinaMaxa;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -40,7 +41,7 @@ public class Add_to_cart extends Base {
 	@FindBy(xpath = "(//input[@id='checkShipForm0'])[2]")
 	private WebElement Usa_side_check;
 	
-	@FindBy(xpath = "(//input[@id='checkShipForm1'])[2]")
+	@FindBy(xpath = "//*[@id='collapseOne']//child::label[contains(text(),'Ready To Ship')]")
 	private WebElement Ready_to_ship_check;
 	
 	@FindBy(xpath = "//a[text()=' Category ']")
@@ -91,6 +92,9 @@ public class Add_to_cart extends Base {
 	
 	@FindBy(xpath = "(//h1)[2]")
 	private WebElement h2;
+	
+	@FindBy(xpath = "//*[@id='collapseOne']//child::label[contains(text(),'USA Local')]")
+	private WebElement US_local;
 	
 	public void refresh()
 	{
@@ -186,6 +190,9 @@ implicity_wait(10);
 
 	
 	Ready_to_ship_check.click();
+	
+	//US_local.click();
+	
 	logger.info("check on ready to ship box");
 	
 	Thread.sleep(6000);
@@ -199,7 +206,7 @@ implicity_wait(10);
 	{
 		 refresh();
 		 implicity_wait(10);
-		list.get(3).click();
+		list.get(0).click();
 		Thread.sleep(6000);
 		
 	}
@@ -275,7 +282,7 @@ explicity_wait(driver, 10, add_to_cart);
 				System.out.println("product added successfully added");
 				
 			}
-			if(product_added_text.equalsIgnoreCase(" Product already added to cart "))
+			if(product_added_text.equalsIgnoreCase("Product already added to cart"))
 			{
 				System.out.println("product is alread in the card");
 				
@@ -305,8 +312,7 @@ explicity_wait(driver, 10, add_to_cart);
 		
 	}
 		
-		
-		
+
 		
 		
 	}

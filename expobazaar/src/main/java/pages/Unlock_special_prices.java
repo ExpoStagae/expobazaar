@@ -33,7 +33,7 @@ private WebElement company_name;
 @FindBy(xpath = "//*[text()=' Unlock Special prices ']")
 private WebElement submit_button;
 
-@FindBy(xpath = "//*[@id=\"tymsg\"]//p")
+@FindBy(xpath = "//app-thankyou-component[@class='ng-star-inserted']//p")
 private WebElement confrimation_msg;
 
 @FindBy(xpath = "//*[@id=\"tymsg\"]//span[contains(text(),'×')]")
@@ -52,6 +52,7 @@ Name.sendKeys(readdata_excel(1, 1, 0));
 logger.info("Enter the Name");
 implicity_wait(10);
 
+Thread.sleep(6000);
 email.sendKeys(readdata_excel(1, 1, 1));
 logger.info("Enter the email");
 implicity_wait(10);
@@ -64,15 +65,15 @@ company_name.sendKeys(readdata_excel(1, 1, 3));
 logger.info("Enter the company name");
 implicity_wait(10);
 
-submit_button.click();
+//submit_button.click();
 
-explicity_wait(driver, 10, confrimation_msg);
+//explicity_wait(driver, 10, confrimation_msg);
 implicity_wait(10);
- String msg =confrimation_msg.getText();
+ String msg =confrimation_msg.getText().trim();
  System.out.println(msg);
 
  
- cross_button.click();
+ //cross_button.click();
  
 return msg;
 

@@ -3,11 +3,12 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Parameters;
 
 import baseLibrary.Base;
 
 public class Sign_in extends Base {
-	
+	@Parameters("env")
 	public Sign_in()
 	{
 		
@@ -48,11 +49,11 @@ public void login() throws InterruptedException
  implicity_wait(10);
  
  user_name.clear();
- user_name.sendKeys(property("User_name"));
+ user_name.sendKeys(property("User_name_com"));
  implicity_wait(10);
  
  password.clear();
- password.sendKeys(property("password"));
+ password.sendKeys(property("password_com"));
  implicity_wait(10);
  
  driver.switchTo().frame(iframe);
@@ -81,7 +82,7 @@ public void invalid_password() throws InterruptedException
 	implicity_wait(10);
 	 
 	user_name.clear();
-	 user_name.sendKeys(property("User_name"));
+	 user_name.sendKeys(property("User_name_com"));
 	 implicity_wait(10);
 	 
 	 password.clear();
@@ -112,7 +113,7 @@ public void invalid_user() throws InterruptedException
 	 implicity_wait(10);
 	 
 	 password.clear();
-	 password.sendKeys(property("password"));
+	 password.sendKeys(property("password_com"));
 	 implicity_wait(10);
 	 
 	 driver.switchTo().frame(iframe);

@@ -4,7 +4,10 @@ import java.awt.Window;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.sql.Date;
 import java.sql.Driver;
+import java.text.DateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -37,27 +40,26 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.Parameters;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
 
-import com.aventstack.extentreports.reporter.ExtentAventReporter;
-import com.relevantcodes.extentreports.*;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 
 import applicationUtility.Action;
 import excelUtility.Excel;
-import extentreport.Extentreports;
+
 import log.Log;
-import net.bytebuddy.agent.builder.AgentBuilder.Identified.Extendable;
-import net.bytebuddy.description.annotation.AnnotationDescription.Loadable;
+
 
 import propertyUtility.Property;
 import screenshot.Screenshot;
 import wait.implicity;
 
-public class Base implements implicity,Property, Action , Excel, Screenshot , Extentreports  {
+public class Base implements implicity,Property, Action , Excel, Screenshot , ITestListener ,Log  {
 
 	
  public static WebDriver driver;
@@ -67,6 +69,8 @@ public class Base implements implicity,Property, Action , Excel, Screenshot , Ex
  public static ExtentReports reports;
  
  public static ExtentTest test;
+ 
+ public static ThreadLocal<ExtentTest> testReport ;
  
  
  
@@ -150,7 +154,7 @@ public void actio(WebElement element, WebDriver driver) {
 }
 public void explicity_wait(WebDriver driver, int time, WebElement elment) {
 	WebDriverWait wait = new WebDriverWait(driver,time);
-	wait.until(ExpectedConditions.elementToBeClickable(elment));
+	wait.until(ExpectedConditions.visibilityOf(elment));
 	
 }
 public String readdata_excel( int sheet_no, int Row_no, int col_no) {
@@ -188,13 +192,8 @@ public void getscreenshots(String foldername, String filename) {
 	}
 	
 }
-public void extentreports() 
-{
-	
-	reports = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html",false);
-    
 
-}
+
 
 public void pdf()
 {
@@ -296,25 +295,76 @@ minimum = minimum.replaceAll("[^0-9]", "").trim();
 		
 	}
 	
+	public void action_hold(WebElement element, WebDriver driver) {
+		Actions act = new Actions(driver);
+		act.moveToElement(element).build().perform();
+		act.clickAndHold();
+		
+	}
 	public void js_scroll()
 	{
 	JavascriptExecutor js = (JavascriptExecutor) driver;
-	js.executeScript("window.scrollBy(0,350)", "");
+	js.executeScript("window.scrollBy(0,550)", "");
 		
 		
 		
 	}
 
 	public static String capture(WebDriver driver) throws IOException {
+		
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+		String formattedString = java.time.LocalDate.now().format(formatter);
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File Dest = new File("src/../ErrImages/" + System.currentTimeMillis()
-		+ ".png");
-		String errflpath = Dest.getAbsolutePath();
-		FileUtils.copyFile(scrFile, Dest);
-		return errflpath;
+	//	File Dest = new File(System.getProperty("user.dir")+"/Reports/ErrImages/" + System.currentTimeMillis()
+		//+ ".png");
+		String Imgpath = System.getProperty("user.dir")+"/Reports/"+formattedString+"/Report/"+ System.currentTimeMillis()+ ".png";
+		
+		File path = new File(Imgpath);
+     
+		FileUtils.copyFile(scrFile, path);
+		String path2=path.getName();
+		return path2;
 		}
 
 
+public void js_over(WebElement element)
+{
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+	
+	String mouseOverScript = "if(document.createEvent){var evObj = document.createEvent('MouseEvents');evObj.initEvent('mouseover', true, false); arguments[0].dispatchEvent(evObj);} else if(document.createEventObject) { arguments[0].fireEvent('onmouseover');}";
+							
+     js.executeScript(mouseOverScript, element);
+}
+
+public void js(String url)
+{
+	String Url= "window.open("+"'"+url+"'"+",'_blank');";
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+	js.executeScript(Url);
+
+}
+
+public void extentreports() 
+{
+    
+	
+	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+	String formattedString = java.time.LocalDate.now().format(formatter);
+	String filename = "Expobazaar_Automation"+".html";
+	
+	reports = new ExtentReports(System.getProperty("user.dir")+"/Reports/"+formattedString+"/Report/"+formattedString+" "+filename , false);
+         
+}
+public void onTestStart(ITestResult result) {
 
 	
+
+}
+
+public void js_click(WebElement ele)
+{
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+	js.executeScript("arguments[0].click();", ele);
+
+}
 }

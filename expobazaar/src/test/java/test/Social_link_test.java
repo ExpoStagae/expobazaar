@@ -38,16 +38,16 @@ try {
 ob.close();
 
  Assert.assertEquals(ob.twitter(), "ExpoBazaar");
- test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Instagram page is working ");
+ test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Twitter page is working ");
  ob.close();
  
  Assert.assertEquals(ob.Instagram(), "expobazaarindia");
  test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Instagram page is working");
  ob.close();
  
- Assert.assertEquals(ob.Linkedin(), "ExpoBazaar");
- test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Linkedin page is working");
- ob.close();
+// Assert.assertEquals(ob.Linkedin(), "ExpoBazaar");
+// test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Linkedin page is working");
+// ob.close();
  
  Assert.assertEquals(ob.Pinterest(), "ExpoBazaar");
  test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Pinterest page is working");

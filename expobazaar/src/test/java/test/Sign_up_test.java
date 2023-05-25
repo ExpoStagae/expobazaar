@@ -25,6 +25,7 @@ public class Sign_up_test extends Base {
 	
 	public void lunch(String browser, String env)
 	{
+		log();
 		extentreports();
 	   test= reports.startTest("Login");
 		launchbrowser(browser, env);
@@ -40,7 +41,7 @@ public void	Sign_up_first() throws IOException
 		try {
 			ob.first_page();
 			test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"First page is completed successfully");
-			ob.next2();
+			ob.next();
 		} catch (Exception e) {
 			System.out.println(e);
 			test.log(LogStatus.FAIL, test.addScreenCapture(capture(driver))+"Please fill all the required field");

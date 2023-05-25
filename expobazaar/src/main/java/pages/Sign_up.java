@@ -7,7 +7,10 @@ import java.util.Set;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -98,7 +101,7 @@ private WebElement billing_zipcode;
 
 ArrayList<String> Child_windows_list = new ArrayList<String>();
 
-@FindBy(xpath = "//button[contains(@type,'submit')]")
+@FindBy(xpath = "//*[@class='btn-blnk']")
 private WebElement next2;
 
 //web elements for sign up third page
@@ -106,7 +109,7 @@ private WebElement next2;
 @FindBy(xpath = "//input[@id='W9-form']")
 private WebElement w9_form;
 
-@FindBy(xpath = "//*[@name='agree_to_terms_conditions']")
+@FindBy(xpath = "//input[@name='agree_to_terms_conditions']")
 private WebElement term_agree_conditions;
 
 @FindBy(xpath = "//button[text()='Submit ']")
@@ -127,7 +130,7 @@ public void first_page() throws InterruptedException
 	logger.info("Go to sign up page");
 	implicity_wait(5);
 	
-	logger.info("Enter the first name");
+	logger.info("Enter the first name"+readdata_excel(0, 1, 0));
 	
 	
 	First_name.sendKeys(readdata_excel(0, 1, 0));
@@ -135,22 +138,22 @@ public void first_page() throws InterruptedException
 	implicity_wait(5);
 	
 	Middle_name.sendKeys(readdata_excel(0, 1, 1));
-	logger.info("Enter middle name");
+	logger.info("Enter the Middle name"+readdata_excel(0, 1, 1));
 	implicity_wait(5);
 	
 	Last_name.sendKeys(readdata_excel(0, 1, 2));
-	logger.info("Enter the last name");
+	logger.info("Enter the Last name"+readdata_excel(0, 1, 2));
 	implicity_wait(5);
   
 	Phone_no.sendKeys("535353355");
-	logger.info("Enter the phone number");
+	logger.info("Enter the Phone name"+"535353355");
 	implicity_wait(5);
 	
 	String email = random_string(5);
 	
 	System.out.println(email);
 	Email_id.sendKeys(random_string(5));
-	logger.info(email);
+	logger.info("Enter the email"+email);
 	implicity_wait(5);
 	
 	//next_button.click();
@@ -161,59 +164,59 @@ public void second_page() throws InterruptedException
 	implicity_wait(10);
 	
 	registered_business_id.sendKeys(readdata_excel(0, 1, 5));
-	logger.info("Enter the register business name");
+	logger.info("Enter the business"+readdata_excel(0, 1, 5));
 	implicity_wait(5);
 
 	business_type.sendKeys(readdata_excel(0, 1, 6));
-    logger.info("Select business in drop down");
+    logger.info("Enter the business type"+readdata_excel(0, 1, 6));
     implicity_wait(5);
     
     Business_tax_id.sendKeys("123456789");
-    logger.info("Enter the business tax id ");
+    logger.info("Enter the tax id"+"123456789");
     implicity_wait(5);
     
     organization_type.sendKeys(readdata_excel(0, 1, 8));
-    logger.info("Enter the organization type");
+    logger.info("Enter the organization type"+readdata_excel(0, 1, 8));
     implicity_wait(5);
     
     Delivery_address.sendKeys(readdata_excel(0, 1, 9));
-    logger.info("Enter the delivery address");
+    logger.info("Enter the delivery address"+readdata_excel(0, 1, 9));
     implicity_wait(5);
     
     country.sendKeys(readdata_excel(0, 1, 10));
-    logger.info("Enter the country ");
+    logger.info("Enter the country "+readdata_excel(0, 1, 10));
     implicity_wait(5);
     
     state.sendKeys(readdata_excel(0, 1, 11));
-    logger.info("Enter the state ");
+    logger.info("Enter the state "+readdata_excel(0, 1, 11));
     implicity_wait(5);
     
     city.sendKeys(readdata_excel(0, 1, 12));
-    logger.info("Enter the city");
+    logger.info("Enter the city"+readdata_excel(0, 1, 12));
     implicity_wait(5);
     
     zip_code.sendKeys("13013");
-    logger.info("Enter the zipcode");
+    logger.info("Enter the zipcode"+"13013");
     implicity_wait(5);
     
     billing_address.sendKeys(readdata_excel(0, 1, 14));
-    logger.info("Enter the billing address");
+    logger.info("Enter the billing address"+readdata_excel(0, 1, 14));
     implicity_wait(5);
     
     billing_country.sendKeys(readdata_excel(0, 1, 15));
-    logger.info("Enter the billing country");
+    logger.info("Enter the billing country"+readdata_excel(0, 1, 15));
     implicity_wait(5);
     
     billing_city.sendKeys(readdata_excel(0, 1, 12));
-    logger.info("Enter the billing city");
+    logger.info("Enter the billing city"+readdata_excel(0, 1, 12));
     implicity_wait(5);
     
     billing_state.sendKeys(readdata_excel(0, 1, 16));
-    logger.info("Enter the billing state");
+    logger.info("Enter the billing state"+readdata_excel(0, 1, 16));
     implicity_wait(5);
     
     billing_zipcode.sendKeys("12323");
-    logger.info("Enter the billing zipcode");
+    logger.info("Enter the billing zipcode"+"12323");
     implicity_wait(5);
     
     Thread.sleep(6000);
@@ -263,11 +266,15 @@ next_button.click();
 
 public void next2()
 {
-next2.click();	
+//  JavascriptExecutor js = (JavascriptExecutor)driver;
+//  js.executeScript("arguments[0].click();", next2);
+	Actions act = new Actions(driver);
+	act.click(next2).build().perform();
 }
 public void Submitt() throws InterruptedException
 {
-	submit_button.click();
+	 //JavascriptExecutor js = (JavascriptExecutor)driver;
+	//  js.executeScript("arguments[0].click();", submit_button);
 	logger.info("Click on submit button");
 	Thread.sleep(10000);
 		

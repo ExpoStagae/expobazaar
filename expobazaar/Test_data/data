@@ -3,8 +3,16 @@ Stage = http://buyeruniversalstaging-env.eba-xxiudxq2.ap-south-1.elasticbeanstal
 
 business_id = 123456789
 
-User_name= rohit.kashyap+1@expobazaar.com
-password = rohitandgullo@123456
+User_name_com= rohit.kashyap+4@expobazaar.com
+password_com = rohitandgullo@123456
 
 gmail_user = rohit.kashyap@expobazaar.com
 gmail_pass = Gullo@071988
+
+User_name_in = rohit.kashyap+7@expobazaar.com
+password_in = rohitandgullo@123456
+
+Central_stage = https://dupm7b02dd0qc.cloudfront.net
+
+Username_central_stage = superadmin@gmail.com
+password_central_stage = Expo@Aq4iIMs#321

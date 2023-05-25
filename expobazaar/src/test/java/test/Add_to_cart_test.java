@@ -29,10 +29,20 @@ public class Add_to_cart_test extends Base{
 	{
 		
 		extentreports();
-		test = reports.startTest("Kitchen");
+		test = reports.startTest("Add to cart");
 		
 		launchbrowser(Browser, env);
 		
+		ob = new Add_to_cart();
+		ob2 = new Sign_in();
+		ob3 = new Ready_to_ship();
+		
+		}
+	
+	@Test(priority = 1)
+	public void sign_in_add() throws InterruptedException, IOException
+	{
+	
 		
 		ob = new Add_to_cart();
 		ob2 = new Sign_in();
@@ -50,7 +60,7 @@ public class Add_to_cart_test extends Base{
 	  
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void kitchen() throws InterruptedException
 	{
 		try {
@@ -67,7 +77,7 @@ public class Add_to_cart_test extends Base{
 	}
 	
 	
-	@Test(priority = 2)
+	@Test(priority = 3)
 	public void choose() throws InterruptedException
 	{
 		try {
@@ -84,7 +94,7 @@ public class Add_to_cart_test extends Base{
 		
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 4)
 	public void select_item() throws InterruptedException, IOException
 	{
 		ob.miminum_value_check();
@@ -95,7 +105,7 @@ public class Add_to_cart_test extends Base{
 
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void gotocart() throws InterruptedException, IOException
 	{
 		ob.gotocart();
@@ -105,7 +115,7 @@ public class Add_to_cart_test extends Base{
 
 	
 	
-	@Test(priority = 5)
+	@Test(priority = 6)
 	public void ready_to_ship() throws InterruptedException, IOException 
 	{
 		ob3.ready_to_ship();
@@ -124,6 +134,8 @@ public class Add_to_cart_test extends Base{
 		test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Check term and condition check box & place order");
 
 	}
+	
+
 	@AfterTest
 	public void quit() {
 		reports.endTest(test);

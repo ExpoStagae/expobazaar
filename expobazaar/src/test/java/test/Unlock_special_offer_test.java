@@ -50,7 +50,7 @@ public class Unlock_special_offer_test extends Base {
 		}
 	   
 		
-		AssertJUnit.assertEquals( mssg, "Your form has been submitted. We'll be in touch really soon.");
+		Assert.assertEquals( mssg, "Your form has been submitted. We'll be in touch really soon.");
 		test.log(LogStatus.PASS, "Price unlock successfully");
 		
 		

@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="1" parallel="classes" name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="env" value="Stage"/>
+<suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="env" value="Stage"/>
+  <test thread-count="1" name="Buyer page(failed)">
     <classes>
-      <class name="test.Sign_up_test">
+      <class name="test.Buyer_service_page_test">
         <methods>
           <include name="lunch"/>
-          <include name="quit"/>
-          <include name="Verify_msg"/>
+          <include name="close"/>
+          <include name="account1"/>
         </methods>
-      </class> <!-- test.Sign_up_test -->
+      </class> <!-- test.Buyer_service_page_test -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Buyer page(failed) -->
+  <test thread-count="1" name="Check invoice(failed)">
+    <classes>
+      <class name="test.Check_order_test">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="manage_order"/>
+          <include name="quit"/>
+          <include name="Management"/>
+        </methods>
+      </class> <!-- test.Check_order_test -->
+    </classes>
+  </test> <!-- Check invoice(failed) -->
+  <test thread-count="1" name="Sign_in(failed)">
+    <classes>
+      <class name="test.Sign_in_test">
+        <methods>
+          <include name="sign"/>
+          <include name="tear_down"/>
+          <include name="luanch"/>
+        </methods>
+      </class> <!-- test.Sign_in_test -->
+    </classes>
+  </test> <!-- Sign_in(failed) -->
+  <test thread-count="1" name="Test9(failed)">
+    <classes>
+      <class name="test.Unlock_special_offer_test">
+        <methods>
+          <include name="close"/>
+          <include name="lunch"/>
+          <include name="Unloac_offer_price"/>
+        </methods>
+      </class> <!-- test.Unlock_special_offer_test -->
+    </classes>
+  </test> <!-- Test9(failed) -->
 </suite> <!-- Failed suite [Suite] -->
