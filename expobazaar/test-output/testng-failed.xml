@@ -3,40 +3,18 @@
 <suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="browser" value="chrome"/>
   <parameter name="env" value="Stage"/>
-  <test thread-count="1" name="Buyer page(failed)">
+  <test thread-count="1" name="Update profile (failed)">
     <classes>
-      <class name="test.Buyer_service_page_test">
+      <class name="test.Profile_test">
         <methods>
-          <include name="lunch"/>
-          <include name="close"/>
-          <include name="account1"/>
-        </methods>
-      </class> <!-- test.Buyer_service_page_test -->
-    </classes>
-  </test> <!-- Buyer page(failed) -->
-  <test thread-count="1" name="Check invoice(failed)">
-    <classes>
-      <class name="test.Check_order_test">
-        <methods>
-          <include name="launch_browser"/>
-          <include name="manage_order"/>
-          <include name="quit"/>
-          <include name="Management"/>
-        </methods>
-      </class> <!-- test.Check_order_test -->
-    </classes>
-  </test> <!-- Check invoice(failed) -->
-  <test thread-count="1" name="Sign_in(failed)">
-    <classes>
-      <class name="test.Sign_in_test">
-        <methods>
-          <include name="sign"/>
+          <include name="launc"/>
+          <include name="my_account"/>
           <include name="tear_down"/>
-          <include name="luanch"/>
+          <include name="profile"/>
         </methods>
-      </class> <!-- test.Sign_in_test -->
+      </class> <!-- test.Profile_test -->
     </classes>
-  </test> <!-- Sign_in(failed) -->
+  </test> <!-- Update profile (failed) -->
   <test thread-count="1" name="Test9(failed)">
     <classes>
       <class name="test.Unlock_special_offer_test">

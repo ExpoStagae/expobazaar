@@ -5,15 +5,17 @@
 	  <parameter name="browser" value="chrome"></parameter>
 	  <parameter name="env" value="Stage"></parameter>
     <classes>
-		<class name="test.Buyer_service_page_test"/>
-		<!--<class name="test.About_us_test"/>
+		<!--<class name="test.Buyer_service_page_test"/>
+		<class name="test.About_us_test"/>
       <class name="test.links_test"/>
+      
     <class name="test.Sign_up_test"/>-->
+    <class name="test.Sign_up_with_referral_test"/>
     <!--   <class name="test.Sign_in_test"/> -->
         <!-- <class name="test.Add_to_cart_test"/>
-       <class name="test.Check_order_test"/> 
-           <class name="test.All_category_working_test"/>-->
-       <!--  <class name="test.Social_link_test"/>
+       <class name="test.Check_order_test"/> -->
+          <!--  <class name="test.All_category_working_test"/>
+        <class name="test.Social_link_test"/>
        <class name="test.Profile_edit_test"/>  -->
        <!-- <class name="test.Profile_test"/>	
        <class name="test.Unlock_special_offer_test"/> -->

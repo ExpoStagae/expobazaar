@@ -32,6 +32,9 @@ public class Sign_up extends Base{
 @FindBy(xpath = "(//*[text()='Sign Up'])[1]")	
 private WebElement sign_up;
 
+@FindBy(xpath = "//*[@id='Referral-code']")
+private WebElement referral_code;
+
 // Web elements for first sign up page
 
 @FindBy(xpath = "//*[@id='Firstname']")
@@ -266,6 +269,7 @@ next_button.click();
 
 public void next2()
 {
+	explicity_wait(driver, 10, next2);
 //  JavascriptExecutor js = (JavascriptExecutor)driver;
 //  js.executeScript("arguments[0].click();", next2);
 	Actions act = new Actions(driver);
@@ -290,5 +294,12 @@ public String Verifymsg() throws InterruptedException
 	
 	Thread.sleep(5000);
 	return successfully;
+}
+
+public void referral_code()
+{
+	
+   referral_code.sendKeys(property("Referral_code"));
+
 }
 }
