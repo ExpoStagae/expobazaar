@@ -20,6 +20,9 @@
     <scope>test</scope>
 </dependency>
 
+
+<!-- Thanks for using https://jar-download.com -->
+
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 <dependency>
     <groupId>commons-io</groupId>
@@ -37,7 +40,7 @@
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
-    <version>4.1.4</version>
+    <version>5.0.9</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 <dependency>

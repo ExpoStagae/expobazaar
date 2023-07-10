@@ -1,352 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="31" passed="28" failed="1" skipped="2">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-26T18:19:59 IST" name="Suite" finished-at="2023-05-26T18:47:06 IST" duration-ms="1626411">
+  <suite started-at="2023-07-10T15:48:54 IST" name="Default suite" finished-at="2023-07-10T15:48:54 IST" duration-ms="42">
     <groups>
     </groups>
-    <test started-at="2023-05-26T18:19:59 IST" name="All tab working" finished-at="2023-05-26T18:25:25 IST" duration-ms="325353">
-      <class name="test.All_category_working_test">
-        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.All_category_working_test@62150f9e]" started-at="2023-05-26T18:20:00 IST" name="lunch" finished-at="2023-05-26T18:20:38 IST" duration-ms="38277" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunch -->
-        <test-method signature="links()[pri:0, instance:test.All_category_working_test@62150f9e]" started-at="2023-05-26T18:20:38 IST" name="links" finished-at="2023-05-26T18:25:24 IST" duration-ms="285871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- links -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:test.All_category_working_test@62150f9e]" started-at="2023-05-26T18:25:24 IST" name="tear_down" finished-at="2023-05-26T18:25:25 IST" duration-ms="1164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-      </class> <!-- test.All_category_working_test -->
-    </test> <!-- All tab working -->
-    <test started-at="2023-05-26T18:25:25 IST" name="About us" finished-at="2023-05-26T18:26:14 IST" duration-ms="49572">
-      <class name="test.About_us_test">
-        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String)[pri:0, instance:test.About_us_test@8f4ea7c]" started-at="2023-05-26T18:25:25 IST" name="launch" finished-at="2023-05-26T18:26:05 IST" duration-ms="40303" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="about_us()[pri:1, instance:test.About_us_test@8f4ea7c]" started-at="2023-05-26T18:26:05 IST" name="about_us" finished-at="2023-05-26T18:26:09 IST" duration-ms="4081" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- about_us -->
-        <test-method signature="shared_values()[pri:2, instance:test.About_us_test@8f4ea7c]" started-at="2023-05-26T18:26:09 IST" name="shared_values" finished-at="2023-05-26T18:26:13 IST" duration-ms="3996" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shared_values -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:test.About_us_test@8f4ea7c]" started-at="2023-05-26T18:26:13 IST" name="tear_down" finished-at="2023-05-26T18:26:14 IST" duration-ms="1190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-      </class> <!-- test.About_us_test -->
-    </test> <!-- About us -->
-    <test started-at="2023-05-26T18:26:15 IST" name="Buyer page" finished-at="2023-05-26T18:28:00 IST" duration-ms="105547">
-      <class name="test.Buyer_service_page_test">
-        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.Buyer_service_page_test@2b662a77]" started-at="2023-05-26T18:26:15 IST" name="lunch" finished-at="2023-05-26T18:27:14 IST" duration-ms="59503" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunch -->
-        <test-method signature="account1()[pri:1, instance:test.Buyer_service_page_test@2b662a77]" started-at="2023-05-26T18:27:14 IST" name="account1" finished-at="2023-05-26T18:27:59 IST" duration-ms="44974" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- account1 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:test.Buyer_service_page_test@2b662a77]" started-at="2023-05-26T18:27:59 IST" name="close" finished-at="2023-05-26T18:28:00 IST" duration-ms="1069" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- test.Buyer_service_page_test -->
-    </test> <!-- Buyer page -->
-    <test started-at="2023-05-26T18:28:00 IST" name="Check invoice" finished-at="2023-05-26T18:31:43 IST" duration-ms="222988">
-      <class name="test.Check_order_test">
-        <test-method is-config="true" signature="launch_browser(java.lang.String,java.lang.String)[pri:0, instance:test.Check_order_test@4efbca5a]" started-at="2023-05-26T18:28:00 IST" name="launch_browser" finished-at="2023-05-26T18:30:40 IST" duration-ms="160384" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_browser -->
-        <test-method signature="sign_in_central()[pri:1, instance:test.Check_order_test@4efbca5a]" started-at="2023-05-26T18:30:40 IST" name="sign_in_central" finished-at="2023-05-26T18:30:51 IST" duration-ms="10840" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sign_in_central -->
-        <test-method signature="invoice()[pri:2, instance:test.Check_order_test@4efbca5a]" started-at="2023-05-26T18:30:51 IST" name="invoice" finished-at="2023-05-26T18:31:17 IST" duration-ms="25307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invoice -->
-        <test-method signature="manage_order()[pri:3, instance:test.Check_order_test@4efbca5a]" started-at="2023-05-26T18:31:17 IST" name="manage_order" finished-at="2023-05-26T18:31:24 IST" duration-ms="7650" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- manage_order -->
-        <test-method signature="Management()[pri:4, instance:test.Check_order_test@4efbca5a]" started-at="2023-05-26T18:31:24 IST" name="Management" finished-at="2023-05-26T18:31:42 IST" duration-ms="17600" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Management -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.Check_order_test@4efbca5a]" started-at="2023-05-26T18:31:42 IST" name="quit" finished-at="2023-05-26T18:31:43 IST" duration-ms="1205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- test.Check_order_test -->
-    </test> <!-- Check invoice -->
-    <test started-at="2023-05-26T18:31:43 IST" name="Link" finished-at="2023-05-26T18:33:14 IST" duration-ms="91368">
-      <class name="test.links_test">
-        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.links_test@72967906]" started-at="2023-05-26T18:31:43 IST" name="lunch" finished-at="2023-05-26T18:32:24 IST" duration-ms="40942" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunch -->
-        <test-method signature="links()[pri:0, instance:test.links_test@72967906]" started-at="2023-05-26T18:32:24 IST" name="links" finished-at="2023-05-26T18:33:13 IST" duration-ms="49275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- links -->
-        <test-method is-config="true" signature="close()[pri:0, instance:test.links_test@72967906]" started-at="2023-05-26T18:33:13 IST" name="close" finished-at="2023-05-26T18:33:14 IST" duration-ms="1150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- test.links_test -->
-    </test> <!-- Link -->
-    <test started-at="2023-05-26T18:33:14 IST" name="Sign_up" finished-at="2023-05-26T18:34:39 IST" duration-ms="84681">
-      <class name="test.Sign_up_test">
-        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.Sign_up_test@130d63be]" started-at="2023-05-26T18:33:14 IST" name="lunch" finished-at="2023-05-26T18:33:55 IST" duration-ms="40919" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunch -->
-        <test-method signature="Sign_up_first()[pri:1, instance:test.Sign_up_test@130d63be]" started-at="2023-05-26T18:33:55 IST" name="Sign_up_first" finished-at="2023-05-26T18:34:04 IST" duration-ms="8340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sign_up_first -->
-        <test-method signature="sign_up_second_page()[pri:2, instance:test.Sign_up_test@130d63be]" started-at="2023-05-26T18:34:04 IST" name="sign_up_second_page" finished-at="2023-05-26T18:34:12 IST" duration-ms="8657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sign_up_second_page -->
-        <test-method signature="third_page_sign_up()[pri:3, instance:test.Sign_up_test@130d63be]" started-at="2023-05-26T18:34:12 IST" name="third_page_sign_up" finished-at="2023-05-26T18:34:28 IST" duration-ms="15561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- third_page_sign_up -->
-        <test-method signature="Verify_msg()[pri:4, instance:test.Sign_up_test@130d63be]" started-at="2023-05-26T18:34:28 IST" name="Verify_msg" finished-at="2023-05-26T18:34:38 IST" duration-ms="10148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_msg -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.Sign_up_test@130d63be]" started-at="2023-05-26T18:34:38 IST" name="quit" finished-at="2023-05-26T18:34:39 IST" duration-ms="1053" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- test.Sign_up_test -->
-    </test> <!-- Sign_up -->
-    <test started-at="2023-05-26T18:34:39 IST" name="Sign_in" finished-at="2023-05-26T18:35:58 IST" duration-ms="78921">
-      <class name="test.Sign_in_test">
-        <test-method is-config="true" signature="luanch(java.lang.String,java.lang.String)[pri:0, instance:test.Sign_in_test@351d00c0]" started-at="2023-05-26T18:34:39 IST" name="luanch" finished-at="2023-05-26T18:35:20 IST" duration-ms="41059" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- luanch -->
-        <test-method signature="sign_in()[pri:1, instance:test.Sign_in_test@351d00c0]" started-at="2023-05-26T18:35:20 IST" name="sign_in" finished-at="2023-05-26T18:35:26 IST" duration-ms="6100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sign_in -->
-        <test-method signature="invalid_password()[pri:2, instance:test.Sign_in_test@351d00c0]" started-at="2023-05-26T18:35:26 IST" name="invalid_password" finished-at="2023-05-26T18:35:38 IST" duration-ms="11975" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalid_password -->
-        <test-method signature="invalid_username()[pri:3, instance:test.Sign_in_test@351d00c0]" started-at="2023-05-26T18:35:38 IST" name="invalid_username" finished-at="2023-05-26T18:35:46 IST" duration-ms="7920" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalid_username -->
-        <test-method signature="sign()[pri:4, instance:test.Sign_in_test@351d00c0]" started-at="2023-05-26T18:35:46 IST" name="sign" finished-at="2023-05-26T18:35:57 IST" duration-ms="10814" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sign -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:test.Sign_in_test@351d00c0]" started-at="2023-05-26T18:35:57 IST" name="tear_down" finished-at="2023-05-26T18:35:58 IST" duration-ms="1050" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-      </class> <!-- test.Sign_in_test -->
-    </test> <!-- Sign_in -->
-    <test started-at="2023-05-26T18:35:58 IST" name="Add to cart" finished-at="2023-05-26T18:38:34 IST" duration-ms="155495">
-      <class name="test.Add_to_cart_test">
-        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.Add_to_cart_test@2a65fe7c]" started-at="2023-05-26T18:35:58 IST" name="lunch" finished-at="2023-05-26T18:36:34 IST" duration-ms="35947" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunch -->
-        <test-method signature="sign_in_add()[pri:1, instance:test.Add_to_cart_test@2a65fe7c]" started-at="2023-05-26T18:36:34 IST" name="sign_in_add" finished-at="2023-05-26T18:36:52 IST" duration-ms="17610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sign_in_add -->
-        <test-method signature="kitchen()[pri:2, instance:test.Add_to_cart_test@2a65fe7c]" started-at="2023-05-26T18:36:52 IST" name="kitchen" finished-at="2023-05-26T18:37:09 IST" duration-ms="17517" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- kitchen -->
-        <test-method signature="choose()[pri:3, instance:test.Add_to_cart_test@2a65fe7c]" started-at="2023-05-26T18:37:09 IST" name="choose" finished-at="2023-05-26T18:37:16 IST" duration-ms="6352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- choose -->
-        <test-method signature="select_item()[pri:4, instance:test.Add_to_cart_test@2a65fe7c]" started-at="2023-05-26T18:37:16 IST" name="select_item" finished-at="2023-05-26T18:37:42 IST" duration-ms="26441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- select_item -->
-        <test-method signature="gotocart()[pri:5, instance:test.Add_to_cart_test@2a65fe7c]" started-at="2023-05-26T18:37:42 IST" name="gotocart" finished-at="2023-05-26T18:37:57 IST" duration-ms="14585" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gotocart -->
-        <test-method signature="ready_to_ship()[pri:6, instance:test.Add_to_cart_test@2a65fe7c]" started-at="2023-05-26T18:37:57 IST" name="ready_to_ship" finished-at="2023-05-26T18:38:32 IST" duration-ms="35909" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ready_to_ship -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.Add_to_cart_test@2a65fe7c]" started-at="2023-05-26T18:38:32 IST" name="quit" finished-at="2023-05-26T18:38:34 IST" duration-ms="1132" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- test.Add_to_cart_test -->
-    </test> <!-- Add to cart -->
-    <test started-at="2023-05-26T18:38:34 IST" name="Update profile " finished-at="2023-05-26T18:39:25 IST" duration-ms="51626">
-      <class name="test.Profile_test">
-        <test-method is-config="true" signature="launc(java.lang.String,java.lang.String)[pri:0, instance:test.Profile_test@128d2484]" started-at="2023-05-26T18:38:34 IST" name="launc" finished-at="2023-05-26T18:39:25 IST" duration-ms="51608" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+    <test started-at="2023-07-10T15:48:54 IST" name="Default test" finished-at="2023-07-10T15:48:54 IST" duration-ms="42">
+      <class name="test.Check_page_in_central_test">
+        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.Check_page_in_central_test@942a29c]" started-at="2023-07-10T15:48:54 IST" name="lunch" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1688984334862" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-S4S1GDB', ip: '192.168.5.199', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ROHIT~1.KAS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2d066b6662cc7a450ab5a5b08afc250]]>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lunch but has not been marked @Optional or defined
+in C:\Users\rohit.kashyap\AppData\Local\Temp\testng-eclipse-1067563027\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-S4S1GDB', ip: '192.168.5.199', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ROHIT~1.KAS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2d066b6662cc7a450ab5a5b08afc250
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.clear(Unknown Source)
-at pages.Sign_in.login(Sign_in.java:51)
-at test.Profile_test.launc(Profile_test.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lunch but has not been marked @Optional or defined
+in C:\Users\rohit.kashyap\AppData\Local\Temp\testng-eclipse-1067563027\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
 at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
 at org.testng.TestRunner.beforeRun(TestRunner.java:627)
 at org.testng.TestRunner.run(TestRunner.java:589)
@@ -365,255 +41,29 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launc -->
-        <test-method signature="my_account()[pri:1, instance:test.Profile_test@128d2484]" started-at="2023-05-26T18:39:25 IST" name="my_account" finished-at="2023-05-26T18:39:25 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-S4S1GDB', ip: '192.168.5.199', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ROHIT~1.KAS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2d066b6662cc7a450ab5a5b08afc250]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-S4S1GDB', ip: '192.168.5.199', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ROHIT~1.KAS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2d066b6662cc7a450ab5a5b08afc250
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.clear(Unknown Source)
-at pages.Sign_in.login(Sign_in.java:51)
-at test.Profile_test.launc(Profile_test.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- my_account -->
-        <test-method signature="profile()[pri:2, instance:test.Profile_test@128d2484]" started-at="2023-05-26T18:39:25 IST" name="profile" finished-at="2023-05-26T18:39:25 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-S4S1GDB', ip: '192.168.5.199', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ROHIT~1.KAS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2d066b6662cc7a450ab5a5b08afc250]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=113.0.5672.127)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-S4S1GDB', ip: '192.168.5.199', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ROHIT~1.KAS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:62036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2d066b6662cc7a450ab5a5b08afc250
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.clear(Unknown Source)
-at pages.Sign_in.login(Sign_in.java:51)
-at test.Profile_test.launc(Profile_test.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- profile -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:test.Profile_test@128d2484]" started-at="2023-05-26T18:39:25 IST" name="tear_down" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1685106565722" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-      </class> <!-- test.Profile_test -->
-    </test> <!-- Update profile  -->
-    <test started-at="2023-05-26T18:39:25 IST" name="Edit Profile" finished-at="2023-05-26T18:44:08 IST" duration-ms="283102">
-      <class name="test.Profile_edit_test">
-        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String)[pri:0, instance:test.Profile_edit_test@1aafa419]" started-at="2023-05-26T18:39:25 IST" name="launch" finished-at="2023-05-26T18:40:30 IST" duration-ms="64791" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="Edit_profile()[pri:1, instance:test.Profile_edit_test@1aafa419]" started-at="2023-05-26T18:40:30 IST" name="Edit_profile" finished-at="2023-05-26T18:40:52 IST" duration-ms="21609" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Edit_profile -->
-        <test-method signature="edt_info()[pri:2, instance:test.Profile_edit_test@1aafa419]" started-at="2023-05-26T18:40:52 IST" name="edt_info" finished-at="2023-05-26T18:41:12 IST" duration-ms="19864" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edt_info -->
-        <test-method signature="password_reset_again()[pri:3, instance:test.Profile_edit_test@1aafa419]" started-at="2023-05-26T18:41:12 IST" name="password_reset_again" finished-at="2023-05-26T18:42:24 IST" duration-ms="72919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- password_reset_again -->
-        <test-method signature="reset_password_again()[pri:4, instance:test.Profile_edit_test@1aafa419]" started-at="2023-05-26T18:42:24 IST" name="reset_password_again" finished-at="2023-05-26T18:44:07 IST" duration-ms="102719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reset_password_again -->
-        <test-method is-config="true" signature="tear_down()[pri:0, instance:test.Profile_edit_test@1aafa419]" started-at="2023-05-26T18:44:07 IST" name="tear_down" finished-at="2023-05-26T18:44:08 IST" duration-ms="1200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-      </class> <!-- test.Profile_edit_test -->
-    </test> <!-- Edit Profile -->
-    <test started-at="2023-05-26T18:44:08 IST" name="Social link" finished-at="2023-05-26T18:46:00 IST" duration-ms="111516">
-      <class name="test.Social_link_test">
-        <test-method is-config="true" signature="launc(java.lang.String,java.lang.String)[pri:0, instance:test.Social_link_test@4218d6a3]" started-at="2023-05-26T18:44:08 IST" name="launc" finished-at="2023-05-26T18:44:49 IST" duration-ms="40487" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launc -->
-        <test-method signature="Social_links()[pri:0, instance:test.Social_link_test@4218d6a3]" started-at="2023-05-26T18:44:49 IST" name="Social_links" finished-at="2023-05-26T18:45:58 IST" duration-ms="69587" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Social_links -->
-        <test-method is-config="true" signature="close()[pri:0, instance:test.Social_link_test@4218d6a3]" started-at="2023-05-26T18:45:58 IST" name="close" finished-at="2023-05-26T18:46:00 IST" duration-ms="1435" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- test.Social_link_test -->
-    </test> <!-- Social link -->
-    <test started-at="2023-05-26T18:46:00 IST" name="Test9" finished-at="2023-05-26T18:47:06 IST" duration-ms="65954">
-      <class name="test.Unlock_special_offer_test">
-        <test-method is-config="true" signature="lunch(java.lang.String,java.lang.String)[pri:0, instance:test.Unlock_special_offer_test@4802796d]" started-at="2023-05-26T18:46:00 IST" name="lunch" finished-at="2023-05-26T18:46:42 IST" duration-ms="41903" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Stage]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunch -->
-        <test-method signature="Unloac_offer_price()[pri:0, instance:test.Unlock_special_offer_test@4802796d]" started-at="2023-05-26T18:46:42 IST" name="Unloac_offer_price" finished-at="2023-05-26T18:47:05 IST" duration-ms="22925" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="login_in_central(java.lang.String)[pri:1, instance:test.Check_page_in_central_test@942a29c]" started-at="2023-07-10T15:48:54 IST" name="login_in_central" finished-at="2023-07-10T15:48:54 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[expected [Your form has been submitted. We'll be in touch really soon.] but found [null]]]>
+              <![CDATA[
+Parameter 'env' is required by @Test on method login_in_central but has not been marked @Optional or defined
+in C:\Users\rohit.kashyap\AppData\Local\Temp\testng-eclipse-1067563027\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Your form has been submitted. We'll be in touch really soon.] but found [null]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at test.Unlock_special_offer_test.Unloac_offer_price(Unlock_special_offer_test.java:53)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'env' is required by @Test on method login_in_central but has not been marked @Optional or defined
+in C:\Users\rohit.kashyap\AppData\Local\Temp\testng-eclipse-1067563027\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -635,15 +85,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Unloac_offer_price -->
-        <test-method is-config="true" signature="close()[pri:0, instance:test.Unlock_special_offer_test@4802796d]" started-at="2023-05-26T18:47:05 IST" name="close" finished-at="2023-05-26T18:47:06 IST" duration-ms="1125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- test.Unlock_special_offer_test -->
-    </test> <!-- Test9 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- login_in_central -->
+      </class> <!-- test.Check_page_in_central_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

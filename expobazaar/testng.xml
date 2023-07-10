@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite"  parallel="classes" thread-count="1" preserve-order="false">
-  <test  parallel="classes" thread-count="1" name="Test" preserve-order="false">
+
 	  <parameter name="browser" value="chrome"></parameter>
 	  <parameter name="env" value="Stage"></parameter>
+	   <parameter name="env_central" value="stage_central"></parameter>
+	   <parameter name="User_id" value=""></parameter>
+	<listeners>
+<listener class-name="extentreport.Listner"/>
+</listeners>
+  <test  parallel="classes" thread-count="1" name="Test" preserve-order="false">
     <classes>
-		<!--<class name="test.Buyer_service_page_test"/>
-		<class name="test.About_us_test"/>
-      <class name="test.links_test"/>
+	    		 <!--<class name="test.Buyer_service_page_test"/>
+	 <class name="test.About_us_test"/>
       
-    <class name="test.Sign_up_test"/>-->
-    <class name="test.Sign_up_with_referral_test"/>
-    <!--   <class name="test.Sign_in_test"/> -->
-        <!-- <class name="test.Add_to_cart_test"/>
-       <class name="test.Check_order_test"/> -->
-          <!--  <class name="test.All_category_working_test"/>
-        <class name="test.Social_link_test"/>
-       <class name="test.Profile_edit_test"/>  -->
-       <!-- <class name="test.Profile_test"/>	
-       <class name="test.Unlock_special_offer_test"/> -->
+      <class name="test.links_test"/>
+     <class name="test.Sign_up_test"/>
+       <class name="test.Sign_up_with_referral_test"/>-->
+    <!-- <class name="test.Sign_in_test"/> 
+    <class name="test.Add_to_cart_for_ready_to_ship_test"/>-->
+  <!--<class name="test.Add_to_cart_for_US_loacal_test"/>
+     <class name="test.Bulk_inquiry_test"/>
+         <class name="test.Serach_bar_test"/>
+         <class name="test.Check_order_test"/>-->
+      <!--<class name="test.All_category_working_test"/> 
+          <class name="test.Social_link_test"/>
+        <class name="test.Profile_edit_test"/>  
+       <class name="test.Profile_test"/>	-->
+       <!-- <class name="test.Unlock_special_offer_test"/>  
+          <class name="test.Order_and_invoice_test"/>
+           <class name="test.Order_sale_table_data_check_test"/>-->
+          <!-- <class name="test.Delete_order_in_page"/>
+     <class name="test.Check_flow_of_cancel_order_test"/>
+        <class name="test.Place_order_after_sign_up"/>-->
+          <class name="test.Check_page_in_central_test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

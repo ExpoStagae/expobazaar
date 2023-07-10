@@ -17,7 +17,7 @@ public class Sign_in extends Base {
 	}
 	
 	
-@FindBy(xpath = "(//*[text()='Sign In'])[1]")
+@FindBy(xpath = "//ul[@class='d-flex text1 justify-content-end']//a[@href='/login']")
 private WebElement sign_in;
 
 @FindBy(xpath = "//*[@name='email']")
@@ -38,7 +38,7 @@ private WebElement iframe;
 @FindBy(xpath = "//*[@id='toast-container']")
 private WebElement success_msg;
 
-public void login() throws InterruptedException
+public void login(String env) throws InterruptedException
 {
 	driver.navigate().refresh();
 
@@ -48,6 +48,19 @@ public void login() throws InterruptedException
  
  implicity_wait(10);
  
+
+ if(env.equalsIgnoreCase("prod"))
+ {
+ user_name.clear();
+ user_name.sendKeys(property("User_name_in_prod"));
+ implicity_wait(10);
+ 
+ password.clear();
+ password.sendKeys(property("password_in_prod"));
+ implicity_wait(10);
+ }
+ if(env.equalsIgnoreCase("Stage"))
+ {
  user_name.clear();
  user_name.sendKeys(property("User_name_com"));
  implicity_wait(10);
@@ -55,13 +68,14 @@ public void login() throws InterruptedException
  password.clear();
  password.sendKeys(property("password_com"));
  implicity_wait(10);
+ }
  
  driver.switchTo().frame(iframe);
  checkbox.click();
  Thread.sleep(5000);
  driver.switchTo().defaultContent();
  
- 
+ Thread.sleep(5000);
  
  submit_button.click();
 
@@ -130,6 +144,6 @@ public void invalid_user() throws InterruptedException
 public void sign() throws InterruptedException
 {
 	Thread.sleep(6000);
-	 sign_in.click();	
+	sign_in.click();	
 }
 }

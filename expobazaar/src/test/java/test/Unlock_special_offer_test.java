@@ -38,16 +38,13 @@ public class Unlock_special_offer_test extends Base {
 	@Test
 	public void Unloac_offer_price() throws InterruptedException, IOException
 	{
-		try {
+
 			
 	 mssg = ob.unlock_offer();
 	 test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Unlock the Special offer");
  			System.out.println(mssg);
 			
-		} catch (Exception e) {
-			System.out.println(e);
-			test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Test is passed");
-		}
+		
 	   
 		
 		Assert.assertEquals( mssg, "Your form has been submitted. We'll be in touch really soon.");

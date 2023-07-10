@@ -9,8 +9,10 @@ import java.sql.Driver;
 import java.text.DateFormat;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
@@ -22,7 +24,7 @@ import  org.apache.log4j.*;
 import javax.lang.model.element.Element;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.logging.impl.Log4JLogger;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.xssf.usermodel.XSSFAnchor;
@@ -44,14 +46,18 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestListener;
+import org.testng.ITestNGListener;
 import org.testng.ITestResult;
 
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.Markup;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
 import applicationUtility.Action;
 import excelUtility.Excel;
-
+import extentreport.ExtentManager;
 import log.Log;
 
 
@@ -93,7 +99,7 @@ public class Base implements implicity,Property, Action , Excel, Screenshot , IT
 	 log();
 	 try {
 		 if(broswer.equalsIgnoreCase("chrome")) {
-			 String path ="C:\\Users\\rohit.kashyap\\eclipse-workspace\\expobazaar\\webdriver\\chromedriver.exe";
+			 String path ="C:\\Users\\rohit.kashyap\\git\\repository\\expobazaar\\webdriver\\chromedriver.exe";
 		 System.setProperty("webdriver.chrome.driver", path);
 		 logger.info("launch the browser");
 		 driver= new ChromeDriver();
@@ -101,6 +107,7 @@ public class Base implements implicity,Property, Action , Excel, Screenshot , IT
 		 logger.info("Go to the website");
 		 driver.manage().window().maximize();
 		 logger.info("maximize the window");
+	
 		 }
 		 
 		 if(broswer.equalsIgnoreCase("firefox")) {
@@ -108,7 +115,11 @@ public class Base implements implicity,Property, Action , Excel, Screenshot , IT
 			 System.setProperty("webdriver.gecko.driver", path);
 			 driver= new FirefoxDriver();
 			 driver.get(property(env));
-			 driver.manage().window().maximize();}
+			 driver.manage().window().maximize();
+			
+		 }
+		 
+		
 		
 	} 
 	 catch (Exception e) {
@@ -116,6 +127,90 @@ public class Base implements implicity,Property, Action , Excel, Screenshot , IT
 		 System.out.println(e);
 		
 	}
+	 
+	
+	 
+ }
+ 
+ public void login_in_central(String env) throws InterruptedException
+ {
+	 
+	 if(env.equalsIgnoreCase("prod"))
+		{
+			String Url= "window.open('https://central.expobazaar.in/','_blank');";
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+			js.executeScript(Url);
+			windowhandling(0);
+			String parent = windowhandling(0);
+			windowhandling(1);
+			
+			
+			WebElement use_name = driver.findElement(By.xpath("//*[@name='email']"));
+			explicity_wait(driver, 10, use_name);
+			
+			use_name.sendKeys(property("Username_central_prod"));
+			
+			WebElement password = driver.findElement(By.xpath("//*[@name='password']"));
+			explicity_wait(driver, 10, password);
+			
+			password.sendKeys(property("password_central_prod"));
+			
+			WebElement frame = driver.findElement(By.xpath("//*[@title='reCAPTCHA']"));
+			driver.switchTo().frame(frame);
+			
+			WebElement check_box = driver.findElement(By.xpath("//*[@id='recaptcha-anchor']"));
+			explicity_wait_clickable(driver, 10, check_box);
+			
+			check_box.click();
+			
+			driver.switchTo().defaultContent();
+			
+			WebElement submitt_button = driver.findElement(By.xpath("//button[contains(@class,'btn btn-primary')]"));
+		    Thread.sleep(10000);
+		    
+		    submitt_button.click();
+		    Thread.sleep(5000);
+		    
+		    driver.navigate().refresh();
+		    Thread.sleep(5000);
+		    
+		    WebElement inventory = driver.findElement(By.xpath("//div[text()='Inventory']"));
+		    explicity_wait_clickable(driver, 20, inventory);
+		    
+		    js_click(inventory);
+		    
+		    WebElement manage_inventory = driver.findElement(By.xpath("//div[text()='Manage Inventory']"));
+		    explicity_wait_clickable(driver, 20, manage_inventory);
+		    
+		    manage_inventory.click();
+		 
+		    Thread.sleep(10000);
+		    WebElement Ready_to_ship = driver.findElement(By.xpath("//li[@class='nav-item']//child::a[contains(text(),'Ready To Ship')]"));
+		    explicity_wait_clickable(driver, 20, Ready_to_ship);
+		    
+		    js_click(Ready_to_ship);
+		    Thread.sleep(12000);
+		    
+		    WebElement serach_id = driver.findElement(By.xpath("//*[@id='searchHere']"));
+		    explicity_wait(driver, 20, serach_id);
+		    
+		    serach_id.sendKeys("t");
+		    Thread.sleep(1000);
+		    serach_id.sendKeys("e");
+		    Thread.sleep(12000);
+		    serach_id.sendKeys("s");
+		    Thread.sleep(12000);
+		    serach_id.sendKeys("t");
+		    
+		  
+		    WebElement live_product = driver.findElement(By.xpath("//ui-switch[@name='pro_sale_live_status']//child::span"));
+		    explicity_wait_clickable(driver, 20, live_product);
+		    Thread.sleep(10000);
+		  js_click(live_product);
+			driver.close();
+			driver.switchTo().window(parent);
+			
+		} 
 	 
  }
 public void implicity_wait(int time) {
@@ -157,8 +252,19 @@ public void explicity_wait(WebDriver driver, int time, WebElement elment) {
 	wait.until(ExpectedConditions.visibilityOf(elment));
 	
 }
+
+public void explicity_wait_presence_of_element(WebDriver driver, int time, List<WebElement> elment) {
+	WebDriverWait wait = new WebDriverWait(driver,time);
+	wait.until(ExpectedConditions.visibilityOfAllElements(elment));
+	
+}
+public void explicity_wait_clickable(WebDriver driver, int time, WebElement elment) {
+	WebDriverWait wait = new WebDriverWait(driver,time);
+	wait.until(ExpectedConditions.elementToBeClickable(elment));
+	
+}
 public String readdata_excel( int sheet_no, int Row_no, int col_no) {
-	String path="C:\\Users\\rohit.kashyap\\git\\repository\\expobazaar\\Test_data\\Test_data.xlsx";
+	String path="C:\\Users\\rohit.kashyap\\git\\repository\\expobazaar\\Test_data\\Test_data (3).xlsx";
 	String value = "";
 	try {
 		
@@ -234,7 +340,7 @@ public void pdf()
 	
 	public String random_string(int n)
 	{
-		String random = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvxyz";
+		String random = "123456789";
 		
 		String gen_random_string= "";
 		try {
@@ -257,41 +363,55 @@ public void pdf()
 		} catch (Exception e) {
 			System.out.println("Unable to generate string due to"+e);
 		}
-		gen_random_string = gen_random_string+"@"+"mailinator.com";
+		gen_random_string = "rohit.kashyap"+"+"+gen_random_string+"@"+"expobazaar.com";
 		return gen_random_string;
 	}
 	
-	public void select(WebElement select, String text)
+	public void select_by_value(WebElement select, String text)
 	{
 		Select sel = new Select(select);
 		sel.selectByValue(text);
 		
 		
 	}
-	public int minimum_value(String minimum)
+	
+	public void select_by_text(WebElement select, String text)
 	{
-minimum = minimum.replaceAll("[^0-9]", "").trim();
+		Select sel = new Select(select);
+		sel.selectByVisibleText(text);
 		
-		int moq_int = Integer.parseInt(minimum);
+		
+	}
+	public Double minimum_value(String minimum)
+	{
+minimum = minimum.replaceAll("[^0-9,.]", "").trim();
+		
+		Double moq_int = Double.parseDouble(minimum);
 		return moq_int;
 	}
 	
-	public float minimum_value_float(String minimum)
+	public Double minimum_value_float(String minimum)
+	{
+minimum = minimum.replaceAll("[^0-9,.]", "").trim();
+		
+		Double moq_float = (Double.parseDouble(minimum));
+		return moq_float;
+	}
+
+	public int minimum_value_int(String minimum)
 	{
 minimum = minimum.replaceAll("[^0-9]", "").trim();
 		
-		float moq_float = Float.parseFloat(minimum);
+		int moq_float = Integer.parseInt(minimum);
 		return moq_float;
 	}
 
 
 
-
-
 	public void action_drag(WebElement element, WebDriver driver) {
 		Actions act = new Actions(driver);
-		act.moveToElement(element).build().perform();
-		act.clickAndHold();
+		act.moveToElement(element).click().build().perform();
+	
 		
 	}
 	
@@ -337,10 +457,21 @@ public void js_over(WebElement element)
 }
 
 public void js(String url)
-{
-	String Url= "window.open("+"'"+url+"'"+",'_blank');";
+{ 
+	if(url.equalsIgnoreCase("Stage"))
+	{
+	String Url= "window.open("+"'"+property("stage_central")+"'"+",'_blank');";
 	JavascriptExecutor js = (JavascriptExecutor)driver;
 	js.executeScript(Url);
+	}
+	if(url.equalsIgnoreCase("prod"))
+	{
+	String Url= "window.open("+"'"+property("prod_central")+"'"+",'_blank');";
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+	js.executeScript(Url);
+	}
+
+
 
 }
 
@@ -353,12 +484,8 @@ public void extentreports()
 	String filename = "Expobazaar_Automation"+".html";
 	
 	reports = new ExtentReports(System.getProperty("user.dir")+"/Reports/"+formattedString+"/Report/"+formattedString+" "+filename , false);
-         
-}
-public void onTestStart(ITestResult result) {
-
 	
-
+ 
 }
 
 public void js_click(WebElement ele)
@@ -367,4 +494,41 @@ public void js_click(WebElement ele)
 	js.executeScript("arguments[0].click();", ele);
 
 }
+
+public void onTestStart(ITestResult result) {
+
+	
+			
+}
+
+public void onTestSuccess(ITestResult result) {
+
+	
+	String methodName = result.getMethod().getMethodName();
+	String logText = "<b>" + "TEST CASE:- " + methodName + " PASSED" + "</b>";
+	Markup m = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
+	try {
+		testReport.get().addScreenCapture(capture(driver));
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+
+}
+
+public void onTestFailure(ITestResult result) {
+
+	String methodName = result.getMethod().getMethodName();
+	String logText = "<b>" + "TEST CASE:- " + methodName + " PASSED" + "</b>";
+	Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
+	try {
+		testReport.get().addScreenCapture(capture(driver));
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+}
+
 }

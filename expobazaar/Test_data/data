@@ -1,4 +1,4 @@
-
+prod = https://www.expobazaar.com/
 Stage = http://buyeruniversalstaging-env.eba-xxiudxq2.ap-south-1.elasticbeanstalk.com/
 
 business_id = 123456789
@@ -12,9 +12,17 @@ gmail_pass = Gullo@071988
 User_name_in = rohit.kashyap+7@expobazaar.com
 password_in = rohitandgullo@123456
 
-Central_stage = https://dupm7b02dd0qc.cloudfront.net
+
+User_name_in_prod = rohit.kashyap+12@expobazaar.com
+password_in_prod = rohitandgullo@123456
+
+stage_central = https://dupm7b02dd0qc.cloudfront.net
+prod_central = https://central.expobazaar.in
 
 Username_central_stage = superadmin@gmail.com
-password_central_stage = Expo@Aq4iIMs#321
+password_central_stage = EBk%sKCI*96&8i
 
-Referral_code = EBINS5
+Username_central_prod = rohit.kashyap+10@expobazaar.com
+password_central_prod = rohitandgullo@123456
+
+Referral_code = EBISN8

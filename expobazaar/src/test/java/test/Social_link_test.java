@@ -4,6 +4,9 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -30,9 +33,9 @@ public class Social_link_test extends Base{
 		
 	}
 @Test
-public void Social_links()
+public void Social_links() throws InterruptedException, IOException
 {
-try {
+
  Assert.assertEquals(ob.facebook(), "ExpoBazaar");
  test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Facebook page is working");
 ob.close();
@@ -58,11 +61,8 @@ ob.close();
  ob.close();
  
 }
-catch (Exception e) {
-	  
-	test.log(LogStatus.FAIL, "Social link did not work successfully"+e);
-}
-}
+
+
 
 @AfterTest
 public void close()

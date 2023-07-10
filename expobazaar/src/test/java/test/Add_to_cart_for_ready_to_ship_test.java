@@ -17,7 +17,7 @@ import pages.Add_to_cart;
 import pages.Ready_to_ship;
 import pages.Sign_in;
 
-public class Add_to_cart_test extends Base{
+public class Add_to_cart_for_ready_to_ship_test extends Base{
 	
 	Add_to_cart ob;
 	Sign_in ob2;
@@ -29,7 +29,7 @@ public class Add_to_cart_test extends Base{
 	{
 		
 		extentreports();
-		test = reports.startTest("Add to cart");
+		test = reports.startTest("Add product for ready to ship");
 		
 		launchbrowser(Browser, env);
 		
@@ -38,9 +38,9 @@ public class Add_to_cart_test extends Base{
 		ob3 = new Ready_to_ship();
 		
 		}
-	
+	@Parameters( "env")
 	@Test(priority = 1)
-	public void sign_in_add() throws InterruptedException, IOException
+	public void sign_in_add(String env) throws InterruptedException, IOException
 	{
 	
 		
@@ -51,7 +51,7 @@ public class Add_to_cart_test extends Base{
 		ob2.sign();
 		test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Click on Sign in button");
 
-		ob2.login();
+		ob2.login(env);
 		test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Try to sign in with valide credential");
         
 		ob2.verify();
@@ -61,34 +61,28 @@ public class Add_to_cart_test extends Base{
 	}
 
 	@Test(priority = 2)
-	public void kitchen() throws InterruptedException
+	public void kitchen() throws InterruptedException, IOException
 	{
-		try {
+		
 			ob.Kitchen();
 		 
 			test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Click on Kitchen and decor tab");
-		} catch (Exception e) {
-			System.out.println(e);
-			test.log(LogStatus.FAIL, "Test is not passed");
-		}
+		
 		
 		
 		
 	}
-	
+	@Parameters( "env")
 	
 	@Test(priority = 3)
-	public void choose() throws InterruptedException
+	public void choose(String env) throws InterruptedException, IOException
 	{
-		try {
+		
 	       
-			ob.choose_item();
+			ob.choose_item(env);
 		 
 			test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Select the item in given list");
-		} catch (Exception e) {
-			System.out.println(e);
-			test.log(LogStatus.FAIL, "Test is not passed");
-		}
+		
 		
 		
 		
@@ -97,7 +91,7 @@ public class Add_to_cart_test extends Base{
 	@Test(priority = 4)
 	public void select_item() throws InterruptedException, IOException
 	{
-		ob.miminum_value_check();
+		ob.miminum_value_check_for_ready_to_ship();
 		test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Check for Minimum order value");
 		
 		ob.maximum_value();
@@ -108,7 +102,7 @@ public class Add_to_cart_test extends Base{
 	@Test(priority = 5)
 	public void gotocart() throws InterruptedException, IOException
 	{
-		ob.gotocart();
+	
 		test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Go to card after for place order");
 		
 	}
@@ -121,7 +115,7 @@ public class Add_to_cart_test extends Base{
 		ob3.ready_to_ship();
 		test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Click on ready to ship");
 		
-		ob3.check_minimum_value();
+		ob3.check_minimum_value_ready_to_ship();
 		test.log(LogStatus.PASS, test.addScreenCapture(capture(driver))+"Check minimum value for place the order");
 
 		ob3.proceed_check();
